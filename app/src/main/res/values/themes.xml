@@ -13,4 +13,9 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <!-- API 31미만 버전용 스플래쉬 -->
+    <style name="Theme.UdemShoppingProject.Splash">
+        <item name="android:windowBackground">@drawable/background_splash_screen</item>
+    </style>
+
 </resources>
