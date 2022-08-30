@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 
 class HomeFragment : Fragment() {
 
@@ -21,11 +22,11 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val button = view.findViewById<Button>(R.id.btn_enter_product_detail)
-        // 람다식 하나의 식일떄는 람다식으로
+
         button.setOnClickListener {
-           val transaction = parentFragmentManager.beginTransaction()
-            transaction.add(R.id.container_main,ProductDetailFragment())
-            transaction.commit()
+            // 네비게이션_액티비티에서 프래그먼트 이동을 설정한 후
+            // 버튼을 클릭스 해당 프래그먼트로 이동하는 것
+           findNavController().navigate(R.id.action_navigation_home_to_productDetailFragment)
         }
     }
 }
