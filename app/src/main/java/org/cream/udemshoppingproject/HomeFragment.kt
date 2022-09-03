@@ -1,12 +1,15 @@
 package org.cream.udemshoppingproject
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
+import org.cream.udemshoppingproject.assets.AssetLoder
+import org.json.JSONObject
 
 class HomeFragment : Fragment() {
 
@@ -21,12 +24,37 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val button = view.findViewById<Button>(R.id.btn_enter_product_detail)
+        val toolbarTitle = view.findViewById<TextView>(R.id.toolbar_home_title)
+        val toolbarIcon = view.findViewById<ImageView>(R.id.toolbar_home_icon)
 
-        button.setOnClickListener {
-            // 네비게이션_액티비티에서 프래그먼트 이동을 설정한 후
-            // 버튼을 클릭스 해당 프래그먼트로 이동하는 것
-           findNavController().navigate(R.id.action_navigation_home_to_productDetailFragment)
+        val assetLoader = AssetLoder()
+        //requireContext를 하는 건 context가 널러블이기 떄문
+        val homeData = assetLoader.getJsonString(requireContext(), "home,json")
+        Log.d("homeData", homeData ?: "")
+
+        //json 데이터 파싱
+        if (!homeData.isNullOrEmpty()) {
+            val jsonObject = JSONObject(homeData)
+            //
+            val title = jsonObject.getJSONObject("title")
+            val text = title.getString("text")
+            val iconUrl = title.getString("icon_url")
+            // val titleValue = Title(text, iconUrl)
+            toolbarTitle.text = text
+            GlideApp.with(this)
+                .load(iconUrl)
+                .into(toolbarIcon)
+            //
+            val topRmsxo = jsonObject.getJSONArray("top_rmsxo")
+            val firstRmsxo = topRmsxo.getJSONObject(0)
+
+            val label = firstRmsxo.getString("label")
+            val productDetail = firstRmsxo.getJSONObject("product_detail")
+            val price = productDetail.getInt("price")
+
+            Log.d("title", "text=${text}, iconUrl=${iconUrl}")
+            Log.d("firstRmsxo", "label=${label}, price=${price}")
         }
+
     }
 }
