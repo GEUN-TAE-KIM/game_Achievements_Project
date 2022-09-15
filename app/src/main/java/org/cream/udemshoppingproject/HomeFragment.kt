@@ -8,8 +8,10 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import androidx.viewpager.widget.ViewPager
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
 import com.google.gson.Gson
 import org.cream.udemshoppingproject.assets.AssetLoder
 import org.json.JSONObject
@@ -76,6 +78,21 @@ class HomeFragment : Fragment() {
                 submitList(homeData.topBanners)
 
             }
+            // 스와이프를 할때 거리 값
+            val pageWidth = resources.getDimension(R.dimen.viewpager_item_width)
+            val pageMargin = resources.getDimension(R.dimen.viewpager_item_margin)
+            val screenWidth = resources.displayMetrics.widthPixels
+            val offset = screenWidth - pageWidth - pageMargin
+
+            viewpager.setPageTransformer { page, position ->
+                page.translationX = position * -offset
+            }
+
+            TabLayoutMediator(viewpagerIndicator, viewpager) { tab, position ->
+
+            }.attach()
+
+
         }
     }
 }
