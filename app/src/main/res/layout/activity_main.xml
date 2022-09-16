@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <!-- 화면 전체를 프래그먼트로 나오게 설정 -->
     <androidx.fragment.app.FragmentContainerView

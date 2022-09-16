@@ -1,4 +1,4 @@
-package org.cream.udemshoppingproject
+package org.cream.udemshoppingproject.ui
 
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
@@ -10,11 +10,15 @@ import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import org.cream.udemshoppingproject.Banner
+import org.cream.udemshoppingproject.GlideApp
+import org.cream.udemshoppingproject.R
 import java.text.DecimalFormat
 import kotlin.math.roundToInt
 
 // ListAdapter 는 레이아웃이 변경됨에따라 해당 데이터를 리스트로 0부터~ 해서 나열해주는 방식인 어뎁터
-class HomeBannerAdapter : ListAdapter<Banner, HomeBannerAdapter.HomeBannerViewHolder>(BannerDiffCallback()) {
+class HomeBannerAdapter : ListAdapter<Banner, HomeBannerAdapter.HomeBannerViewHolder>(
+    BannerDiffCallback()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeBannerViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_home_banner, parent,false)

@@ -1,10 +1,11 @@
-package org.cream.udemshoppingproject
+package org.cream.udemshoppingproject.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import org.cream.udemshoppingproject.R
 
 class CartFragment: Fragment() {
 

@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="org.cream.udemshoppingproject.HomeFragment"
+        android:name="org.cream.udemshoppingproject.ui.HomeFragment"
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_navigation_home_to_productDetailFragment"
@@ -14,14 +14,14 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_category"
-        android:name="org.cream.udemshoppingproject.CategoryFragment"
+        android:name="org.cream.udemshoppingproject.ui.CategoryFragment"
         android:label="CategoryFragment" />
     <fragment
         android:id="@+id/navigation_cart"
-        android:name="org.cream.udemshoppingproject.CartFragment"
+        android:name="org.cream.udemshoppingproject.ui.CartFragment"
         android:label="CartFragment" />
     <fragment
         android:id="@+id/productDetailFragment"
-        android:name="org.cream.udemshoppingproject.ProductDetailFragment"
+        android:name="org.cream.udemshoppingproject.ui.ProductDetailFragment"
         android:label="ProductDetailFragment" />
 </navigation>

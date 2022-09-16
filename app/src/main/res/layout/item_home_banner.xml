@@ -34,7 +34,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
-        android:text="adadasd"
+        android:text="adadasd \n asdad"
         app:layout_constraintBottom_toTopOf="@id/bg_banner_product_detail"
         app:layout_constraintEnd_toEndOf="@id/iv_banner_image"
         app:layout_constraintStart_toStartOf="@id/iv_banner_image" />
@@ -79,7 +79,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
-        android:text="asdasdaadasd"
+        android:text="asadasd"
         app:layout_constraintEnd_toEndOf="@id/tv_banner_detail_brand_label"
         app:layout_constraintStart_toStartOf="@id/tv_banner_detail_brand_label"
         app:layout_constraintTop_toBottomOf="@id/tv_banner_detail_brand_label" />
@@ -89,7 +89,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="7dp"
-        android:text="asdasdeqwe"
+        android:text="9%"
         app:layout_constraintStart_toStartOf="@id/tv_banner_detail_product_label"
         app:layout_constraintTop_toBottomOf="@id/tv_banner_detail_product_label" />
 
@@ -98,7 +98,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="6dp"
-        android:text="adasdasdasd"
+        android:text="89,000원"
         app:layout_constraintBottom_toBottomOf="@id/tv_banner_detail_product_discount_rate"
         app:layout_constraintStart_toEndOf="@id/tv_banner_detail_product_discount_rate" />
 
@@ -108,7 +108,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginBottom="1dp"
-        android:text="asdasd"
+        android:text="100,000원"
         app:layout_constraintBottom_toBottomOf="@id/tv_banner_detail_product_discount_price"
         app:layout_constraintStart_toEndOf="@id/tv_banner_detail_product_discount_price" />
 
