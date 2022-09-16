@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="org.cream.udemshoppingproject.ui.HomeFragment"
+        android:name="org.cream.udemshoppingproject.ui.home.HomeFragment"
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_navigation_home_to_productDetailFragment"

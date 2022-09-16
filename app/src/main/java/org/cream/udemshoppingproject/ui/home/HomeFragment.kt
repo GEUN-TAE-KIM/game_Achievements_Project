@@ -1,7 +1,6 @@
-package org.cream.udemshoppingproject.ui
+package org.cream.udemshoppingproject.ui.home
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,20 +8,15 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.Observer
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
-import com.google.gson.Gson
-import org.cream.udemshoppingproject.GlideApp
-import org.cream.udemshoppingproject.HomData
-import org.cream.udemshoppingproject.R
-import org.cream.udemshoppingproject.Title
-import org.cream.udemshoppingproject.assets.AssetLoder
+import org.cream.udemshoppingproject.*
+import org.cream.udemshoppingproject.ui.common.ViewModelFactory
 
 class HomeFragment : Fragment() {
 
-    private val viewModel: HomeViewModel by viewModels()
+    private val viewModel: HomeViewModel by viewModels { ViewModelFactory(requireContext()) }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -40,16 +34,6 @@ class HomeFragment : Fragment() {
         val viewpager = view.findViewById<ViewPager2>(R.id.viewpager_home_banner)
         val viewpagerIndicator = view.findViewById<TabLayout>(R.id.viewpager_home_banner_indicator)
 
-        val assetLoader = AssetLoder()
-        //requireContext를 하는 건 context가 널러블이기 떄문
-        val homeJsonString = assetLoader.getJsonString(requireContext(), "home,json")
-        Log.d("homeData", homeJsonString ?: "")
-
-        //json 데이터 파싱
-        if (!homeJsonString.isNullOrEmpty()) {
-            val gson = Gson()
-            val homeData = gson.fromJson(homeJsonString, HomData::class.java)
-
             //viewLifecycleOwner 란 라이프 사이클이 변경됨을 알림을 받아 알리는 것
             viewModel.title.observe(viewLifecycleOwner) { title ->
                 toolbarTitle.text =title.text
@@ -58,9 +42,9 @@ class HomeFragment : Fragment() {
                     .into(toolbarIcon)
             }
 
-            viewModel.topBanners.observe(viewLifecycleOwner) { banners ->
-                viewpager.adapter = HomeBannerAdapter().apply {
-                    submitList(homeData.topBanners)
+            viewpager.adapter = HomeBannerAdapter().apply {
+                 viewModel.topBanners.observe(viewLifecycleOwner) { banners ->
+                    submitList(banners)
                 }
             }
 
@@ -70,6 +54,7 @@ class HomeFragment : Fragment() {
             val screenWidth = resources.displayMetrics.widthPixels
             val offset = screenWidth - pageWidth - pageMargin
 
+            viewpager.offscreenPageLimit = 3
             viewpager.setPageTransformer { page, position ->
                 page.translationX = position * -offset
             }
@@ -81,4 +66,3 @@ class HomeFragment : Fragment() {
 
         }
     }
-}

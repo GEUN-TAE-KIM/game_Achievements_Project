@@ -1,4 +1,4 @@
-package org.cream.udemshoppingproject.ui
+package org.cream.udemshoppingproject.ui.home
 
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
