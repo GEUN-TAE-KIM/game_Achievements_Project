@@ -14,7 +14,7 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_category"
-        android:name="org.cream.udemshoppingproject.ui.CategoryFragment"
+        android:name="org.cream.udemshoppingproject.ui.category.CategoryFragment"
         android:label="CategoryFragment" />
     <fragment
         android:id="@+id/navigation_cart"
