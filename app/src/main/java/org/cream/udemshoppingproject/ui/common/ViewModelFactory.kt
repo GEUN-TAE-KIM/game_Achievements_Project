@@ -5,10 +5,10 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import org.cream.udemshoppingproject.assets.AssetLoder
 import org.cream.udemshoppingproject.network.ApiClient
-import org.cream.udemshoppingproject.repository.CategoryRemoteDataSource
-import org.cream.udemshoppingproject.repository.CategoryRepository
-import org.cream.udemshoppingproject.repository.HomeAssetDataSource
-import org.cream.udemshoppingproject.repository.HomeRepository
+import org.cream.udemshoppingproject.repository.category.CategoryRemoteDataSource
+import org.cream.udemshoppingproject.repository.category.CategoryRepository
+import org.cream.udemshoppingproject.repository.home.HomeAssetDataSource
+import org.cream.udemshoppingproject.repository.home.HomeRepository
 import org.cream.udemshoppingproject.ui.category.CategoryViewModel
 import org.cream.udemshoppingproject.ui.home.HomeViewModel
 import java.lang.IllegalArgumentException

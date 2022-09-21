@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
 import org.cream.udemshoppingproject.model.Category
-import org.cream.udemshoppingproject.repository.CategoryRepository
+import org.cream.udemshoppingproject.repository.category.CategoryRepository
 
 class CategoryViewModel(private val categoryRepository: CategoryRepository): ViewModel() {
 

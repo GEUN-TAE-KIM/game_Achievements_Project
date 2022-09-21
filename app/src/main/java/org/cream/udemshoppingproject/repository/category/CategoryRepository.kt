@@ -1,7 +1,8 @@
-package org.cream.udemshoppingproject.repository
+package org.cream.udemshoppingproject.repository.category
 
 
 import org.cream.udemshoppingproject.model.Category
+import org.cream.udemshoppingproject.repository.category.CategoryRemoteDataSource
 
 class CategoryRepository(private val remoteDataSource: CategoryRemoteDataSource) {
 

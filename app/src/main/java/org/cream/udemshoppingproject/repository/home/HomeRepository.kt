@@ -1,4 +1,4 @@
-package org.cream.udemshoppingproject.repository
+package org.cream.udemshoppingproject.repository.home
 
 import org.cream.udemshoppingproject.model.HomeData
 
