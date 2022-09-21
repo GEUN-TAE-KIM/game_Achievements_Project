@@ -3,17 +3,17 @@ package org.cream.udemshoppingproject.assets
 import android.content.Context
 
 //json 파일을 스트링 파일로 처리함으로써 읽어 오기 위한 것
-class AssetLoder {
+class AssetLoder(private val context: Context) {
 
-    fun getJsonString(context: Context, fileName: String): String? {
+    fun getJsonString(fileName: String): String? {
 
         // Exception을 처리하는 것
         return kotlin.runCatching {
-            loadAsset(context, fileName)
+            loadAsset(fileName)
         }.getOrNull()
     }
 
-    private fun loadAsset(context: Context, fileName: String): String {
+    private fun loadAsset(fileName: String): String {
         // assets 파일에 접근을 할려면 context(정보에 접근)를 사용
         // use(확장함수)를 통해
         return context.assets.open(fileName).use { inputStream ->

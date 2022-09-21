@@ -1,56 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <data>
+
+        <variable
+            name="title"
+            type="org.cream.udemshoppingproject.model.Title" />
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
-        <androidx.appcompat.widget.Toolbar
+        <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/shoppi_white"
-            app:contentInsetStart="0dp"
-            app:layout_scrollFlags="scroll|enterAlways">
-            <!--app:layout_scrollFlags="scroll|enterAlways
-                : 사용자의 화면에 따라 보여주게 하는것
-                  (즉: 스크롤 하면 위에 화면이 사라짐)
-                app:contentInsetStart="0dp"
-                : 툴바에 갖고이는 padding 을 없애줌
-                  -->
+            android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/toolbar_home_title"
-                style="@style/TextHeadLine5.Black02.Bold"
+            <androidx.appcompat.widget.Toolbar
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="70dp"
-                android:paddingStart="16dp"
-                android:paddingTop="32dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="25dp"
-                android:text="게임 스크린샷" />
+                android:background="@color/shoppi_white"
+                app:contentInsetStart="0dp"
+                app:layout_scrollFlags="scroll|enterAlways">
+                <!--app:layout_scrollFlags="scroll|enterAlways
+                    : 사용자의 화면에 따라 보여주게 하는것
+                      (즉: 스크롤 하면 위에 화면이 사라짐)
+                    app:contentInsetStart="0dp"
+                    : 툴바에 갖고이는 padding 을 없애줌
+                      -->
 
-            <ImageView
-                android:id="@+id/toolbar_home_icon"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_gravity="end"
-                android:layout_marginEnd="8dp"
-                android:scaleType="center"
-                android:src="@drawable/ic_baseline_arrow_back_24" />
+                <TextView
+                    android:id="@+id/toolbar_home_title"
+                    style="@style/TextHeadline5.Black02.Bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="70dp"
+                    android:paddingStart="16dp"
+                    android:paddingTop="32dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="25dp"
+                    android:text="@{title.text}" />
 
-        </androidx.appcompat.widget.Toolbar>
+                <ImageView
+                    android:id="@+id/toolbar_home_icon"
+                    imageUrl="@{title.iconUrl}"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_baseline_arrow_back_24" />
 
-    </com.google.android.material.appbar.AppBarLayout>
+            </androidx.appcompat.widget.Toolbar>
 
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        </com.google.android.material.appbar.AppBarLayout>
 
-    </androidx.core.widget.NestedScrollView>
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/viewpager_home_banner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/viewpager_home_banner_indicator"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/viewpager_home_banner"
+                    app:tabBackground="@drawable/selector_viewpager_indicator"
+                    app:tabGravity="center"
+                    app:tabIndicatorHeight="0dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

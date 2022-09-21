@@ -1,4 +1,4 @@
-package org.cream.udemshoppingproject
+package org.cream.udemshoppingproject.ui
 
 import android.content.Intent
 import android.os.Bundle
