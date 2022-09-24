@@ -4,11 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
-<!--        <variable
-            name="viewModel"
-            type="com.shoppi.app.ui.category.CategoryViewModel" />-->
-
         <variable
             name="category"
             type="org.cream.udemshoppingproject.model.Category" />
