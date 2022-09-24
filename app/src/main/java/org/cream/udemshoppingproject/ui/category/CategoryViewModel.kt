@@ -7,14 +7,22 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
 import org.cream.udemshoppingproject.model.Category
 import org.cream.udemshoppingproject.repository.category.CategoryRepository
+import org.cream.udemshoppingproject.ui.common.Event
 
 class CategoryViewModel(private val categoryRepository: CategoryRepository): ViewModel() {
 
     private val _items = MutableLiveData<List<Category>>()
     val items: LiveData<List<Category>> = _items
 
+    private val _openCategoryEvent = MutableLiveData<Event<Category>>()
+    val openCategoryEvent: LiveData<Event<Category>> = _openCategoryEvent
+
     init {
         loadCategory()
+    }
+
+    fun openCategoryDetail(category: Category) {
+        _openCategoryEvent.value = Event(category)
     }
 
     private fun loadCategory() {
