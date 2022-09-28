@@ -1,0 +1,112 @@
+#  *MVVM 패턴*
+Model, View, ViewModel의 약자로
+
+MVVM 패턴은 MVC 패턴에서 Controller를 빼고 ViewModel을 추가한 패턴
+각각의 개념들이 독립적으로 존재해서 테스트, 유지 보수, 재사용이 쉬워진다.
+하지만 설계가 어렵다..
+
+* Model      :   데이터를 의미하는 객체
+                DataModel이라고도 하며 DB, Network, SharedPreference 등
+                다양한 데이터 소스로부터 필요한 데이터를 준비함.
+                ViewModel에서 데이터를 가져갈 수 있게 데이터를 준비
+* View       :   xml 파일
+* ViewModel  :   View를 표현하기 위해 만든 View를 위한 Model
+                View를 나타내주기 위한 데이터 처리담당
+                View와는 Binding을 하여 연결후 View에게서 액션을 받고 또한 View를 업데이트한다
+                ex) textView에 보여줄 내용을 담당하는 함수 등, View에서 변화가 일어나는 ViewController의 역할을 담당
+
+- MVVM과 주로 함께 사용되는 개념
+* DataBinding
+* LiveData / ViewModel
+* Android Di(Koin,Dagger) : 아직 잘 모르겠음..
+
+View는 ViewModel을 알지만 ViewModel은 View를 알지 못하고,
+ViewModel은 Model을 알지만(Repository 패턴을 사용하면 의존성 줄어듬)
+Model은 ViewModel을 알지못한다.
+즉, 한쪽 방향으로만 의존 관계가 잇어서 각 모듈별로 분리하여 개발할 수 있다.
+
+장점 :
+1. View와 Model사이의 의존성이 없다.
+    -> View는 ViewModel의 데이터만 바라보고 있고, ViewModel이 Model에게 데이터를 요청하고 최신화한다.
+2. View와 ViewModel을 바인딩하기 때문에 코드의 양이 줄어든다
+    -> 평소에 사용하던 findViewId()와 같은 보일러 코드가 줄어든다.
+    -> 또한 데이터를 주입하거나 연결하던 작업을 하지 않아도 된다.
+        (View가 ViewModel의 값을 보고 있어서 자동 갱신되기 때문)
+3. Model , View , ViewModel 부분 부분이 독립적이기 때문에 모듈화 하여 개발할 수 있다.
+    -> MVC , MVP 모델의 최종 진화형태
+4. 유닛테스트를 하기가 좋다.
+
+단점 :
+1.설계하기가 어렵다..
+2.간단한 UI에서는 오히려 ViewModel설계가 더 번거롭다.
+3.복잡해질수록 Controller처럼 ViewModel이 빠르게 비대해진다.
+
+추가)
+ AAC ViewModel과 MVVM의 ViewModel은 같지 않다.
+ AAC ViewModel은 ViewModelProviders를 사용해서 ViewModel을 만드는데,
+ 이렇게 만들어진 뷰모델은 그 액티비티에서 딱 하나만 존재하게 된다.
+ 액티비티 한 개 내에서만 유효한 싱글톤인 셈이다. 이런 특성은 일반적인 MVVM에서는 강제되는 것이 아니기 때문에 혼란이 올 수 있다.
+
+
+# DataBinding
+보통 View에 데이터를 넣을 때 Activity(혹은 Fragment)에서 하는데
+이러한 불필요한 작업을 줄일 수 있다.
+데이터를 Xml에서 바로 사용가능하기 때문에 LiveData와 함께 쓰인다.
+    -> LiveData와 함께 쓰게되면 LiveData의 Observer를 사용할 필요없이
+       Data가 변경될 때 바로 Xml에 반영시킬 수 있다. (=LifeCycleOwner)
+또한 BindingAdapter를 사용하면 View에 관련된 코드(RecyclerView, Glide , View로직)를
+Activity, Fragment에서 분리할 수 있어서 코드 양을 줄일 수 있다.
+
+View의 데이터를 Activity에서 세팅하는게 아니라
+xml에서 ViewModel의 값을 직접 가져오는  방법
+->  Activity에는 로직만을 위한 코드만 남고,
+    View와 관련된 작업은 xml파일에 정의된다.
+->  DataBinding = Data와 View를 연결하는 작업을
+    레이아웃(xml)에서 처리하는 기술
+
+xml파일 대략 구조
+    <layout>
+        <data>
+            <variable
+                name=""  //name = xml에서 사용할 변수명
+                type=""/> //type = 클래스,함수 경로
+            ...
+        </data>
+    </layout>
+
+# LiveData
+안드로이드 LifeCycle을 가지고 있는 DataType
+    -> LifeCycle을 가지고 있어서 LifeCycle안에서만 동작한다.
+Observer 객체를 사용해서 LiveData안에 Data업데이트를 확인할 수 있다.
+    -> LifeCycleOwner가 값이 변경되면 자동으로 값을 갱신해주기 때문에
+       개발자가 직접 관리하지 않아도 된다.
+DataBinding과 함께 쓰게 된다면 Observer를 사용하지않고 손쉽게 View의 값을
+갱신할 수 있다.
+
+Observer 코드 대략 구조 
+
+
+    val liveData = LiveData<String> //ViewModel에 작성
+    liveData.observe(LifeCycleOwner,observe{
+            //LiveData의 값이 변경되었을때 하고싶은 로직
+    }) --> DataBinding을 사용한다면 굳이 사용하지 않아도 됨
+    
+
+# ViewModel
+Activity,Fragment같은 View의 LifeCycle과 독립적임으로
+Activity가 완전히 종료될 떄 까지 데이터를 저장해야하는 경우에
+데이터를 안전하게 보관할 수 있다.
+
+-MVVM 참고
+    https://www.youtube.com/watch?v=-b0VNKw_niY
+    https://jhtop0419.tistory.com/m/21
+    https://wooooooak.github.io/android/2019/05/07/aac_viewmodel/
+    https://medium.com/kenneth-android/android-mvvm-viewmodel%EA%B3%BC-aac-viewmodel%EC%9D%98-%EC%B0%A8%EC%9D%B4-8c0d54922e07
+
+-DataBinding 참고
+    https://kangmin1012.tistory.com/16?category=879935
+    https://kangmin1012.tistory.com/18?category=879935
+    https://develop-writing.tistory.com/46
+
+-LiveData 참고
+https://velog.io/@mingyun12304/Android-KotlinViewModel-LiveData
