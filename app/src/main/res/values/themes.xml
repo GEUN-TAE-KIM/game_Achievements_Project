@@ -12,10 +12,16 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="appBarLayoutStyle">@style/AppbarStyle</item>
     </style>
     <!-- API 31미만 버전용 스플래쉬 -->
     <style name="Theme.UdemShoppingProject.Splash">
         <item name="android:windowBackground">@drawable/background_splash_screen</item>
+    </style>
+
+    <style name="AppbarStyle" parent="Widget.Design.AppBarLayout">
+        <item name="android:background">@color/shoppi_white</item>
+
     </style>
 
 </resources>
