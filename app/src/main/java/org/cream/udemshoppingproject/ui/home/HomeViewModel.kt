@@ -3,7 +3,7 @@ package org.cream.udemshoppingproject.ui.home
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import org.cream.udemshoppingproject.Banner
+import org.cream.udemshoppingproject.model.Banner
 import org.cream.udemshoppingproject.model.Title
 import org.cream.udemshoppingproject.repository.home.HomeRepository
 

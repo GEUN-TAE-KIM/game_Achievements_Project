@@ -1,0 +1,56 @@
+{
+  "from-darkSouls1": {
+    "top_selling": {
+      "title" : {
+        "text" : "인기상품"
+      },
+      "categories" : [
+        {
+          "category_id": "fashion-jacket",
+          "label" : "자켓",
+          "thumbnail_image_url" : "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "updated": true
+        },
+        {
+          "category_id": "fashion-sweater",
+          "label" : "스웨터",
+          "thumbnail_image_url" : "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "updated": true
+        },
+        {
+          "category_id": "fashion-cap",
+          "label" : "캡모자",
+          "thumbnail_image_url" : "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "updated": true
+        },
+        {
+          "category_id": "fashion-belt",
+          "label" : "허리띠",
+          "thumbnail_image_url" : "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "updated": true
+        }
+      ]
+    },
+    "promotions" : {
+      "title" : {
+        "text" : "추천상품"
+      },
+      "items": [
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "discount_rate" : 10,
+          "price": 90000,
+          "representative_image_url" : "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id" : "jacket_1"
+        },
+        {
+          "label": "[암월의검] 진정한 암월의 힘",
+          "discount_rate" : 15,
+          "price": 70000,
+          "representative_image_url" : "https://user-images.githubusercontent.com/80413888/191299689-66283125-337e-4dd8-a33a-c91efbb47667.jpg",
+          "product_id" : "sweater_1"
+        }
+      ]
+    }
+  }
+}

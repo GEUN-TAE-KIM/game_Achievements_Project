@@ -1,22 +1,12 @@
 package org.cream.udemshoppingproject.ui.home
 
-import android.graphics.Color
-import android.graphics.drawable.ColorDrawable
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import org.cream.udemshoppingproject.Banner
-import org.cream.udemshoppingproject.GlideApp
-import org.cream.udemshoppingproject.R
+import org.cream.udemshoppingproject.model.Banner
 import org.cream.udemshoppingproject.databinding.ItemHomeBannerBinding
-import org.cream.udemshoppingproject.ui.common.loadImage
-import java.text.DecimalFormat
-import kotlin.math.roundToInt
 
 // ListAdapter 는 레이아웃이 변경됨에따라 해당 데이터를 리스트로 0부터~ 해서 나열해주는 방식인 어뎁터
 class HomeBannerAdapter : ListAdapter<Banner, HomeBannerAdapter.HomeBannerViewHolder>(
