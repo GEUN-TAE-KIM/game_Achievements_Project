@@ -57,12 +57,9 @@ Model은 ViewModel을 알지못한다.
 또한 BindingAdapter를 사용하면 View에 관련된 코드(RecyclerView, Glide , View로직)를
 Activity, Fragment에서 분리할 수 있어서 코드 양을 줄일 수 있다.
 
-View의 데이터를 Activity에서 세팅하는게 아니라
-xml에서 ViewModel의 값을 직접 가져오는  방법
-->  Activity에는 로직만을 위한 코드만 남고,
-    View와 관련된 작업은 xml파일에 정의된다.
-->  DataBinding = Data와 View를 연결하는 작업을
-    레이아웃(xml)에서 처리하는 기술
+View의 데이터를 Activity에서 세팅하는게 아니라 xml에서 ViewModel의 값을 직접 가져오는  방법
+->  Activity에는 로직만을 위한 코드만 남고,  View와 관련된 작업은 xml파일에 정의된다.
+->  DataBinding = Data와 View를 연결하는 작업을 레이아웃(xml)에서 처리하는 기술
 
 xml파일 대략 구조
     <layout>
@@ -87,8 +84,9 @@ Observer 코드 대략 구조
 
 
     val liveData = LiveData<String> //ViewModel에 작성
+    
     liveData.observe(LifeCycleOwner,observe{
-            //LiveData의 값이 변경되었을때 하고싶은 로직
+      //LiveData의 값이 변경되었을때 하고싶은 로직
     }) --> DataBinding을 사용한다면 굳이 사용하지 않아도 됨
     
 
