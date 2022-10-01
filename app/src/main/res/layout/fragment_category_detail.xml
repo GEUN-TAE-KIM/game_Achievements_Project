@@ -20,7 +20,7 @@
                 android:layout_height="wrap_content"
                 android:navigationIcon="@drawable/ic_baseline_arrow_back_24"
                 app:contentInsetStartWithNavigation="0dp"
-                app:layout_scrollFlags="scroll||enterAlways"
+
                 app:titleTextAppearance="@style/TextMedium.Bold"
                 tools:title="다크소울" />
 
