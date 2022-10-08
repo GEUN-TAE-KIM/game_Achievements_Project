@@ -6,6 +6,7 @@
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable-v24/background_bluegrey_r20.xml" value="0.1755" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1675" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable-v24/selector_cart_icon.xml" value="0.1675" />
+        <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable/background_circle_gradient.xml" value="0.171" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable/background_purple_r24.xml" value="0.1755" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable/background_splash_screen.xml" value="0.1675" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable/background_white.xml" value="0.1675" />
@@ -28,6 +29,7 @@
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/layout/fragment_product_detail.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/layout/item_category.xml" value="0.20820863616930313" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/layout/item_category_promotion.xml" value="0.2" />
+        <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/layout/item_category_top_selling.xml" value="0.20820863616930313" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/layout/item_home_banner.xml" value="0.20820863616930313" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/layout/item_home_banners.xml" value="0.20735356990166737" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/layout/item_title.xml" value="0.20820863616930313" />
