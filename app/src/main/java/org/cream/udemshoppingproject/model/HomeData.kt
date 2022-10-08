@@ -7,6 +7,8 @@ data class HomeData(
     val title: Title,
 
     // 上에 있는 제약조건을 무시하는 것
-    @SerializedName("top_banner") val topBanners: List<Banner>
+    @SerializedName("top_banner") val topBanners: List<Banner>,
+
+    val promotions: Promotion
 
 )

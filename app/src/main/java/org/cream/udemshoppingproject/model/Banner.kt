@@ -6,7 +6,7 @@ data class Banner(
     @SerializedName("background_image_url") val backgroundImageUrl: String,
     val badge: BannerBadge,
     val label: String,
-    @SerializedName("product_detail") val productDetail: ProductDetail
+    @SerializedName("product_detail") val productDetail: Product
 )
 
 data class BannerBadge(

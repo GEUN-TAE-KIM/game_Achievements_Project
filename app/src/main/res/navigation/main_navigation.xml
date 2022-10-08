@@ -30,7 +30,7 @@
         tools:Layout="@layout/fragment_cart" />
     <fragment
         android:id="@+id/productDetailFragment"
-        android:name="org.cream.udemshoppingproject.ui.ProductDetailFragment"
+        android:name="org.cream.udemshoppingproject.ui.productdetail.ProductDetailFragment"
         android:label="ProductDetailFragment"
         tools:Layout="@layout/fragment_product_detail" />
     <fragment
