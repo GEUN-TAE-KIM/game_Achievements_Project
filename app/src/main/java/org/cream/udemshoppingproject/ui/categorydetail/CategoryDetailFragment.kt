@@ -43,10 +43,15 @@ class CategoryDetailFragment: Fragment() {
 
     private fun setListAdapter() {
 
+        val topSellingSectionAdapter = CategoryTopSellingSectionAdapter()
         val titleAdapter = CategorySectionTitleAdapter()
         val promotionAdapter = CategoryPromotionAdapter()
                                             // 어댑터를 하나로 만드는 것
-        binding.rvCategoryDetail.adapter = ConcatAdapter(titleAdapter, promotionAdapter)
+        binding.rvCategoryDetail.adapter = ConcatAdapter(topSellingSectionAdapter,titleAdapter, promotionAdapter)
+        viewModel.topSelling.observe(viewLifecycleOwner) {
+            topSelling ->
+            topSellingSectionAdapter.submitList(listOf(topSelling))
+        }
 
         viewModel.promotions.observe(viewLifecycleOwner) {promotions ->
             titleAdapter.submitList(listOf(promotions.title))
