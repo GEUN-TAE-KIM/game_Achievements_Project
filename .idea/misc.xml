@@ -8,10 +8,13 @@
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable-v24/selector_cart_icon.xml" value="0.1675" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable/background_black_gradient.xml" value="0.171" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable/background_circle_gradient.xml" value="0.171" />
+        <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable/background_gradient_r24.xml" value="0.171" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable/background_purple_r24.xml" value="0.1755" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable/background_splash_screen.xml" value="0.1675" />
+        <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable/background_top_rounded.xml" value="0.171" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable/background_white.xml" value="0.1675" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1675" />
+        <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable/ic_gnb_back.xml" value="0.171" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable/selected_viewpager_indicator.xml" value="0.1675" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable/selector_cart_icon.xml" value="0.1675" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/drawable/selector_catagory_icon.xml" value="0.1675" />
@@ -33,6 +36,7 @@
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/layout/item_category_top_selling.xml" value="0.20820863616930313" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/layout/item_home_banner.xml" value="0.20820863616930313" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/layout/item_home_banners.xml" value="0.20735356990166737" />
+        <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/layout/item_product_description.xml" value="0.20820863616930313" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/layout/item_title.xml" value="0.20820863616930313" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/menu/navigation_main_menu.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/rmsxo/Udemshoppingproject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1235" />

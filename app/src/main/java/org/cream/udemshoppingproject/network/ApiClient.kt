@@ -4,6 +4,7 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.cream.udemshoppingproject.model.Category
 import org.cream.udemshoppingproject.model.CategoryDetail
+import org.cream.udemshoppingproject.model.Product
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
@@ -16,6 +17,9 @@ interface ApiClient {
 
     @GET("fashion_female.json")
     suspend fun getCategoryDetail(): CategoryDetail
+
+    @GET("products/{productId}.json")
+    suspend fun getProductDetail(@Path("productId") productId: String): Product
 
     // 데이터를 구성하면 이렇게
    /* @GET("{categoryID}.json")
