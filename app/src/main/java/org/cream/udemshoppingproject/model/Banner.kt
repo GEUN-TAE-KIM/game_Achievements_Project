@@ -24,4 +24,8 @@ data class ProductDetail(
     @SerializedName("product_id") val productId: String
 
 
+
+
+
+
 )
