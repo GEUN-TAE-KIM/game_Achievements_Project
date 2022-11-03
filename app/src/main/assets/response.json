@@ -1,0 +1,130 @@
+{
+  "categories": [
+    {
+      "category_id": "from-darkSouls1",
+      "label": "다크소울1",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+      "updated": false
+    },
+    {
+      "category_id": "from-darkSouls2",
+      "label": "다크소울2",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299687-71c0786d-f4ac-4272-a040-1c4bceac2862.jpg",
+      "updated": false
+    },
+    {
+      "category_id": "from-darkSouls3",
+      "label": "다크소울3",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299689-66283125-337e-4dd8-a33a-c91efbb47667.jpg",
+      "updated": false
+    },
+    {
+      "category_id": "from-bloodBorn",
+      "label": "데몬즈소울",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299702-29760e16-98c1-4708-886c-52594db1af8b.jpg",
+      "updated": false
+    },
+    {
+      "category_id": "from-eldenring",
+      "label": "엘든링",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299708-ca0fce0b-d5d6-43cd-b76a-252e21039e16.jpg",
+      "updated": false
+    },
+    {
+      "category_id": "from-SeKiRo",
+      "label": "세키로",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191300208-47fafc6b-4d0a-485c-b8a1-7266773c5814.jpg",
+      "updated": false
+    },
+    {
+      "category_id": "from-bloodBorn1",
+      "label": "춘식이",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299747-f9dc895f-83e0-4eaf-bdc4-9cd183062d6a.PNG",
+      "updated": false
+    },
+    {
+      "category_id": "from-bloodBorn2",
+      "label": "춘식이",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299754-b06d7e2f-2acc-4e54-a654-87389edaece8.png",
+      "updated": false
+    },
+    {
+      "category_id": "from-bloodBorn3",
+      "label": "춘식이",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299757-49a1e217-5ef7-40a3-af7f-751884161793.png",
+      "updated": false
+    },
+    {
+      "category_id": "from-bloodBorn4",
+      "label": "춘식이",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299747-f9dc895f-83e0-4eaf-bdc4-9cd183062d6a.PNG",
+      "updated": false
+    },
+    {
+      "category_id": "from-bloodBorn5",
+      "label": "춘식이",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299754-b06d7e2f-2acc-4e54-a654-87389edaece8.png",
+      "updated": false
+    },
+    {
+      "category_id": "from-bloodBorn6",
+      "label": "춘식이",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299760-5f331f2d-f0ab-44a0-92ca-76ccc51720a2.png",
+      "updated": true
+    }
+  ],
+  "from-darkSouls1": {
+    "top_selling": {
+      "title" : {
+        "text" : "인기상품"
+      },
+      "categories" : [
+        {
+          "category_id": "fashion-jacket",
+          "label" : "자켓",
+          "thumbnail_image_url" : "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "updated": true
+        },
+        {
+          "category_id": "fashion-sweater",
+          "label" : "스웨터",
+          "thumbnail_image_url" : "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "updated": true
+        },
+        {
+          "category_id": "fashion-cap",
+          "label" : "캡모자",
+          "thumbnail_image_url" : "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "updated": true
+        },
+        {
+          "category_id": "fashion-belt",
+          "label" : "허리띠",
+          "thumbnail_image_url" : "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "updated": true
+        }
+      ]
+    },
+    "promotions" : {
+      "title" : {
+        "text" : "추천상품"
+      },
+      "items": [
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "discount_rate" : 10,
+          "price": 90000,
+          "representative_image_url" : "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id" : "jacket_1"
+        },
+        {
+          "label": "[암월의검] 진정한 암월의 힘",
+          "discount_rate" : 15,
+          "price": 70000,
+          "representative_image_url" : "https://user-images.githubusercontent.com/80413888/191299689-66283125-337e-4dd8-a33a-c91efbb47667.jpg",
+          "product_id" : "sweater_1"
+        }
+      ]
+    }
+  }
+}

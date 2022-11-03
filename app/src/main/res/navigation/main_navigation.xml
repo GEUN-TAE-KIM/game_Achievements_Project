@@ -1,27 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_navigation"
     app:startDestination="@id/navigation_home">
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="org.cream.udemshoppingproject.HomeFragment"
-        android:label="HomeFragment" >
+        android:name="org.cream.udemshoppingproject.ui.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:Layout="@layout/fragment_home">
         <action
             android:id="@+id/action_navigation_home_to_productDetailFragment"
             app:destination="@id/productDetailFragment" />
     </fragment>
     <fragment
         android:id="@+id/navigation_category"
-        android:name="org.cream.udemshoppingproject.CategoryFragment"
-        android:label="CategoryFragment" />
+        android:name="org.cream.udemshoppingproject.ui.category.CategoryFragment"
+        android:label="CategoryFragment"
+        tools:Layout="@layout/fragment_category">
+        <action
+            android:id="@+id/action_category_to_category_detail"
+            app:destination="@id/navigation_category_detail" />
+    </fragment>
     <fragment
         android:id="@+id/navigation_cart"
-        android:name="org.cream.udemshoppingproject.CartFragment"
-        android:label="CartFragment" />
+        android:name="org.cream.udemshoppingproject.ui.CartFragment"
+        android:label="CartFragment"
+        tools:Layout="@layout/fragment_cart" />
     <fragment
         android:id="@+id/productDetailFragment"
-        android:name="org.cream.udemshoppingproject.ProductDetailFragment"
-        android:label="ProductDetailFragment" />
+        android:name="org.cream.udemshoppingproject.ui.productdetail.ProductDetailFragment"
+        android:label="ProductDetailFragment"
+        tools:Layout="@layout/fragment_product_detail" />
+    <fragment
+        android:id="@+id/navigation_category_detail"
+        android:name="org.cream.udemshoppingproject.ui.categorydetail.CategoryDetailFragment"
+        android:label="CategoryDetailFragment"
+        tools:Layout="@layout/fragment_category_detail" />
 </navigation>

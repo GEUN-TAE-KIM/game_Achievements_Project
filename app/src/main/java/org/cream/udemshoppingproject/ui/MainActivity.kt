@@ -1,10 +1,11 @@
-package org.cream.udemshoppingproject
+package org.cream.udemshoppingproject.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import org.cream.udemshoppingproject.R
 
 class MainActivity : AppCompatActivity() {
 
