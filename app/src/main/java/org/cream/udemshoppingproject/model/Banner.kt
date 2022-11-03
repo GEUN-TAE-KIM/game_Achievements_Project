@@ -22,4 +22,5 @@ data class ProductDetail(
     @SerializedName("thumbnail_image_url") val thumbnail_image_url: String?,
     @SerializedName("representative_image_url") val representativeImageUrl: String?,
     @SerializedName("product_id") val productId: String
+
 )
