@@ -3,13 +3,14 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
     id 'com.google.gms.google-services'
+    id 'com.google.dagger.hilt.android'
 }
 
 android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "org.cream.udemshoppingproject"
+        applicationId "org.cream.geuntae_hobby"
         minSdk 26
         targetSdk 32
         versionCode 1
@@ -70,8 +71,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics-ktx'
 
     //Network
-    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
     implementation platform("com.squareup.okhttp3:okhttp-bom:4.9.0")
     implementation "com.squareup.okhttp3:okhttp"
     implementation "com.squareup.okhttp3:logging-interceptor"
@@ -87,6 +88,10 @@ dependencies {
 
     //recyclerview
     implementation "androidx.recyclerview:recyclerview:1.2.1"
+
+    //Dagger-Hilt
+    implementation "com.google.dagger:hilt-android:2.44"
+    kapt "com.google.dagger:hilt-compiler:2.44"
 
 
 

@@ -4,7 +4,7 @@
     <item
         android:id="@+id/navigation_category"
         android:icon="@drawable/selector_catagory_icon"
-        android:title="1" />
+        android:title="메뉴" />
 
     <item
         android:id="@+id/navigation_home"

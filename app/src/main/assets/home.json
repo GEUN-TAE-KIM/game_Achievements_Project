@@ -1,9 +1,9 @@
 {
   "title": {
     "text": "게임 스크린샷",
-    "icon_url": ""
+    "icon_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
   },
-  "top_banner": [
+  "top_banners": [
     {
       "background_image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg",
       "badge": {
@@ -17,7 +17,7 @@
         "discount_rate": 9,
         "price": 80000,
         "thumbnail_image_url": "",
-        "product_id": "-me-darksouls-1"
+        "product_id": "me-darksouls-1"
       }
     },
     {
@@ -32,7 +32,7 @@
         "label": "아르토리스와 선택받은 불사자",
         "discount_rate": 5,
         "price": 100000,
-        "thumbnail_image_url": "",
+        "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/188258907-7f9c551e-1b74-4dc6-9d09-833627bfb56f.jpg",
         "product_id": "melrina-EldenRing-1"
       }
     }

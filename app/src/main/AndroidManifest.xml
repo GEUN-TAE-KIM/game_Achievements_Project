@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="org.cream.udemshoppingproject">
+    package="org.cream.geuntae_hobby">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -14,13 +14,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.UdemShoppingProject"
+        android:theme="@style/Theme.GeunTae_hobby"
         tools:targetApi="31">
 
         <activity
-            android:name=".ui.SplashActivity"
+            android:name="org.cream.geuntae_hobby.ui.SplashActivity"
             android:exported="true"
-            android:theme="@style/Theme.UdemShoppingProject.Splash">
+            android:theme="@style/Theme.GeunTae_hobby.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,7 +29,7 @@
         </activity>
 
         <activity
-            android:name=".ui.MainActivity"
+            android:name="org.cream.geuntae_hobby.ui.MainActivity"
             android:exported="false" />
 
     </application>

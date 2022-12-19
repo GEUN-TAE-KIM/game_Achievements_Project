@@ -6,11 +6,11 @@
     <data>
         <variable
             name="viewModel"
-            type="org.cream.udemshoppingproject.ui.home.HomeViewModel" />
+            type="org.cream.geuntae_hobby.ui.home.HomeViewModel" />
 
         <variable
             name="banner"
-            type="org.cream.udemshoppingproject.model.Banner" />
+            type="org.cream.geuntae_hobby.model.Banner" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -90,7 +90,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginStart="12dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="8dp"
             android:contentDescription="@string/description_home_banner_thumbnail"
             app:layout_constraintStart_toStartOf="@id/bg_banner_product_detail"
             app:layout_constraintTop_toTopOf="@id/bg_banner_product_detail"

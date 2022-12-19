@@ -2,7 +2,21 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Android-Smart-Custom-Calendar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Calendar_with_TODO" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Diary-kotlin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GongmojuCalendar_Kotlin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Muslim-s_habit-Quran-Azan-Azkar-" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Quesookt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ReadingDiary" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SharedCalendar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SimpleCalendar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Sobok-Android" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/To-Do-App-Kotlin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Todo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/WorkoutDiary" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/android07-notto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/iFood" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/shoppi-android" vcs="Git" />
   </component>
 </project>

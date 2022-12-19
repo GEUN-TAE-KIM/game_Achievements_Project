@@ -7,7 +7,7 @@
 
         <variable
             name="category"
-            type="org.cream.udemshoppingproject.model.Category" />
+            type="org.cream.geuntae_hobby.model.Category" />
 
     </data>
 

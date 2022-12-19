@@ -6,11 +6,11 @@
     <data>
         <variable
             name="viewModel"
-            type="org.cream.udemshoppingproject.ui.productdetail.ProductDetailViewModel" />
+            type="org.cream.geuntae_hobby.ui.productdetail.ProductDetailViewModel" />
 
         <variable
             name="product"
-            type="org.cream.udemshoppingproject.model.Product" />
+            type="org.cream.geuntae_hobby.model.Product" />
 
     </data>
 
