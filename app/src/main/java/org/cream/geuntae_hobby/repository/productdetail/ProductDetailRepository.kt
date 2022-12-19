@@ -1,8 +1,11 @@
 package org.cream.geuntae_hobby.repository.productdetail
 
 import org.cream.geuntae_hobby.model.Product
+import javax.inject.Inject
+import javax.inject.Singleton
 
-class ProductDetailRepository(
+
+class ProductDetailRepository @Inject constructor(
     private val remoteDataSource: ProductDetailDataSource
 ) {
 

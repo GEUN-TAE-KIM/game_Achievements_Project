@@ -10,14 +10,16 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.ConcatAdapter
 import com.google.android.material.tabs.TabLayoutMediator
+import dagger.hilt.android.AndroidEntryPoint
 import org.cream.geuntae_hobby.*
 import org.cream.geuntae_hobby.common.KEY_PRODUCT_ID
 import org.cream.geuntae_hobby.databinding.FragmentHomeBinding
 import org.cream.geuntae_hobby.ui.common.*
 
+@AndroidEntryPoint
 class HomeFragment : Fragment(), ProductClickListener {
 
-    private val viewModel: HomeViewModel by viewModels { ViewModelFactory(requireContext()) }
+    private val viewModel: HomeViewModel by viewModels()
     private lateinit var binding: FragmentHomeBinding
 
     override fun onCreateView(

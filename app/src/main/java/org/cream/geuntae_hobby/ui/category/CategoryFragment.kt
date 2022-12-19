@@ -8,6 +8,7 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
+import dagger.hilt.android.AndroidEntryPoint
 import org.cream.geuntae_hobby.R
 import org.cream.geuntae_hobby.common.KEY_CATEGORY_ID
 import org.cream.geuntae_hobby.common.KEY_CATEGORY_LABEL
@@ -15,10 +16,10 @@ import org.cream.geuntae_hobby.databinding.FragmentCartegoryBinding
 import org.cream.geuntae_hobby.ui.common.EventObserver
 import org.cream.geuntae_hobby.ui.common.ViewModelFactory
 
-
+@AndroidEntryPoint
 class CategoryFragment: Fragment() {
 
-    private val viewModel: CategoryViewModel by viewModels { ViewModelFactory(requireContext()) }
+    private val viewModel : CategoryViewModel by viewModels()
     private lateinit var binding: FragmentCartegoryBinding
 
     override fun onCreateView(

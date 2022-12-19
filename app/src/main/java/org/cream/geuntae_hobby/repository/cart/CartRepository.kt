@@ -5,8 +5,11 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.cream.geuntae_hobby.model.CartItem
 import org.cream.geuntae_hobby.model.Product
+import javax.inject.Inject
+import javax.inject.Singleton
 
-class CartRepository(
+
+class CartRepository @Inject constructor(
     private val localDataSource: CartItemLocalDataSource,
     private val ioDispatcher: CoroutineDispatcher = Dispatchers.IO
 ) {

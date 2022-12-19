@@ -1,8 +1,11 @@
 package org.cream.geuntae_hobby.repository.category
 
 import org.cream.geuntae_hobby.model.Category
+import javax.inject.Inject
+import javax.inject.Singleton
 
-class CategoryRepository(private val remoteDataSource: CategoryRemoteDataSource) {
+
+class CategoryRepository (private val remoteDataSource: CategoryRemoteDataSource) {
 
     suspend fun getCategories():List<Category> {
 

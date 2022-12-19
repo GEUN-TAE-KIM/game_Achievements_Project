@@ -4,12 +4,15 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import org.cream.geuntae_hobby.model.Promotion
 import org.cream.geuntae_hobby.model.TopSelling
 import org.cream.geuntae_hobby.repository.categorydetail.CategoryDetailRepository
+import javax.inject.Inject
 
-class CategoryDetailViewModel(private val categoryDetailRepository: CategoryDetailRepository) :
+@HiltViewModel
+class CategoryDetailViewModel @Inject constructor(private val categoryDetailRepository: CategoryDetailRepository) :
     ViewModel() {
 
     private val _topSelling = MutableLiveData<TopSelling>()
@@ -24,7 +27,7 @@ class CategoryDetailViewModel(private val categoryDetailRepository: CategoryDeta
 
     private fun loadCategoryDetail() {
         viewModelScope.launch {
-            val categoryDetail =categoryDetailRepository.getCategoryDetail()
+            val categoryDetail = categoryDetailRepository.getCategoryDetail()
             _topSelling.value = categoryDetail.topSelling
             _promotions.value = categoryDetail.promotions
         }

@@ -8,15 +8,17 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import dagger.hilt.android.AndroidEntryPoint
 import org.cream.geuntae_hobby.R
 import org.cream.geuntae_hobby.common.KEY_PRODUCT_ID
 import org.cream.geuntae_hobby.databinding.FragmentProductDetailBinding
 import org.cream.geuntae_hobby.ui.common.EventObserver
 import org.cream.geuntae_hobby.ui.common.ViewModelFactory
 
+@AndroidEntryPoint
 class ProductDetailFragment : Fragment() {
 
-    private val viewModel: ProductDetailViewModel by viewModels { ViewModelFactory(requireContext()) }
+    private val viewModel : ProductDetailViewModel by viewModels()
     private lateinit var binding: FragmentProductDetailBinding
 
     override fun onCreateView(

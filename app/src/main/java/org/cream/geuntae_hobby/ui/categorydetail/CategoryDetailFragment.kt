@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.ConcatAdapter
+import dagger.hilt.android.AndroidEntryPoint
 import org.cream.geuntae_hobby.common.KEY_CATEGORY_LABEL
 import org.cream.geuntae_hobby.databinding.FragmentCategoryDetailBinding
 import org.cream.geuntae_hobby.ui.common.ProductClickListener
@@ -14,10 +15,11 @@ import org.cream.geuntae_hobby.ui.common.ProductPromotionAdapter
 import org.cream.geuntae_hobby.ui.common.SectionTitleAdapter
 import org.cream.geuntae_hobby.ui.common.ViewModelFactory
 
+@AndroidEntryPoint
 class CategoryDetailFragment: Fragment(), ProductClickListener {
 
     private lateinit var binding: FragmentCategoryDetailBinding
-    private val viewModel: CategoryDetailViewModel by viewModels { ViewModelFactory(requireContext()) }
+    private val viewModel by viewModels<CategoryDetailViewModel>()
 
     override fun onCreateView(
         inflater: LayoutInflater,
