@@ -13,7 +13,7 @@ import org.cream.geuntae_hobby.ui.common.ViewModelFactory
 @AndroidEntryPoint
 class CartFragment: Fragment() {
 
-    private val viewModel : CartViewModel by viewModels()
+    private val viewModel : CartViewModel by viewModels{ ViewModelFactory(requireContext()) }
     private lateinit var binding: FragmentCartBinding
 
     override fun onCreateView(

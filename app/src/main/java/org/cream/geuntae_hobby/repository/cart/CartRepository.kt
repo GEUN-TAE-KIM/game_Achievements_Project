@@ -8,8 +8,7 @@ import org.cream.geuntae_hobby.model.Product
 import javax.inject.Inject
 import javax.inject.Singleton
 
-
-class CartRepository @Inject constructor(
+class CartRepository (
     private val localDataSource: CartItemLocalDataSource,
     private val ioDispatcher: CoroutineDispatcher = Dispatchers.IO
 ) {

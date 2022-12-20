@@ -18,7 +18,7 @@ import org.cream.geuntae_hobby.ui.common.ViewModelFactory
 @AndroidEntryPoint
 class ProductDetailFragment : Fragment() {
 
-    private val viewModel : ProductDetailViewModel by viewModels()
+    private val viewModel : ProductDetailViewModel by viewModels{ ViewModelFactory(requireContext()) }
     private lateinit var binding: FragmentProductDetailBinding
 
     override fun onCreateView(

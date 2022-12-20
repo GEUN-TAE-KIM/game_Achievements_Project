@@ -12,8 +12,8 @@ import org.cream.geuntae_hobby.repository.productdetail.ProductDetailRepository
 import org.cream.geuntae_hobby.ui.common.Event
 import javax.inject.Inject
 
-@HiltViewModel
-class ProductDetailViewModel @Inject constructor(
+
+class ProductDetailViewModel (
     private val productDetailRepository: ProductDetailRepository,
     private val cartRepository: CartRepository
 ) : ViewModel() {

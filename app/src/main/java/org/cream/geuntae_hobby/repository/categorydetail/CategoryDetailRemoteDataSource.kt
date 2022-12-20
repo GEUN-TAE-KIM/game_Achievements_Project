@@ -5,7 +5,10 @@ import org.cream.geuntae_hobby.network.ApiClient
 import javax.inject.Inject
 import javax.inject.Singleton
 
-class CategoryDetailRemoteDataSource @Inject constructor(private val api: ApiClient): CategoryDetailDataSource {
+class CategoryDetailRemoteDataSource @Inject constructor(
+    private val api: ApiClient
+) : CategoryDetailDataSource {
+
     override suspend fun getCategoryDetail(): CategoryDetail {
         return api.getCategoryDetail()
     }

@@ -5,7 +5,7 @@ import org.cream.geuntae_hobby.model.CartItem
 import javax.inject.Inject
 import javax.inject.Singleton
 
-class CartItemLocalDataSource @Inject constructor(
+class CartItemLocalDataSource (
     private val dao: CartItemDao
 ) : CartItemDataSource {
 

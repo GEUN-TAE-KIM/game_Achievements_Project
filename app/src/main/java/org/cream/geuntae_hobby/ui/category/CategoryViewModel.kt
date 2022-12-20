@@ -11,8 +11,10 @@ import org.cream.geuntae_hobby.repository.category.CategoryRepository
 import org.cream.geuntae_hobby.ui.common.Event
 import javax.inject.Inject
 
-
-class CategoryViewModel (private val categoryRepository: CategoryRepository): ViewModel() {
+@HiltViewModel
+class CategoryViewModel @Inject constructor(
+    private val categoryRepository: CategoryRepository
+) : ViewModel() {
 
     private val _items = MutableLiveData<List<Category>>()
     val items: LiveData<List<Category>> = _items

@@ -11,8 +11,8 @@ import org.cream.geuntae_hobby.repository.home.HomeRepository
 import org.cream.geuntae_hobby.ui.common.Event
 import javax.inject.Inject
 
-@HiltViewModel
-class HomeViewModel @Inject constructor(private val homeRepository: HomeRepository) : ViewModel() {
+
+class HomeViewModel (private val homeRepository: HomeRepository) : ViewModel() {
 
     private val _title = MutableLiveData<Title>()
     val title: LiveData<Title> = _title

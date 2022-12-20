@@ -13,20 +13,20 @@ object ServiceLocator {
     private var database: AppDatabase? = null
     private var cartRepository: CartRepository? = null
 
-    fun provideApiClient(): ApiClient {
+    /*fun provideApiClient(): ApiClient {
         return apiClient ?: kotlin.run {
             ApiClient.create().also {
                 apiClient = it
             }
         }
-    }
+    }*/
 
     private fun provideDatabase(applicationContext: Context): AppDatabase {
         return database ?: kotlin.run {
             Room.databaseBuilder(
                 applicationContext,
                 AppDatabase::class.java,
-                "shoppi-local"
+                "geuntae-local"
             ).build().also {
                 database = it
             }

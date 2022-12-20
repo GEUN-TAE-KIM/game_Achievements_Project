@@ -5,7 +5,7 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 
-class CategoryDetailRepository @Inject constructor(private val remoteDataSource: CategoryDetailRemoteDataSource) {
+class CategoryDetailRepository (private val remoteDataSource: CategoryDetailRemoteDataSource) {
     suspend fun getCategoryDetail(): CategoryDetail{
         return remoteDataSource.getCategoryDetail()
     }

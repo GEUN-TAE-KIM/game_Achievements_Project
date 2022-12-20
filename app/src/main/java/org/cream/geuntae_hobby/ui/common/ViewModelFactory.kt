@@ -28,7 +28,7 @@ class ViewModelFactory(private val context: Context): ViewModelProvider.Factory 
                 val repository = HomeRepository(HomeAssetDataSource(AssetLoader(context)))
                 HomeViewModel(repository) as T
             }
-            modelClass.isAssignableFrom(CategoryViewModel::class.java) -> {
+           /* modelClass.isAssignableFrom(CategoryViewModel::class.java) -> {
                 val repository = CategoryRepository(CategoryRemoteDataSource(ServiceLocator.provideApiClient()))
                 CategoryViewModel(repository) as T
             }
@@ -39,7 +39,7 @@ class ViewModelFactory(private val context: Context): ViewModelProvider.Factory 
             modelClass.isAssignableFrom(ProductDetailViewModel::class.java) -> {
                 val repository = ProductDetailRepository(ProductDetailRemoteDataSource(ServiceLocator.provideApiClient()))
                 ProductDetailViewModel(repository, ServiceLocator.provideCartRepository(context)) as T
-            }
+            }*/
             modelClass.isAssignableFrom(CartViewModel::class.java) -> {
                 CartViewModel(ServiceLocator.provideCartRepository(context)) as T
             }

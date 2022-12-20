@@ -19,7 +19,7 @@ import org.cream.geuntae_hobby.ui.common.ViewModelFactory
 class CategoryDetailFragment: Fragment(), ProductClickListener {
 
     private lateinit var binding: FragmentCategoryDetailBinding
-    private val viewModel by viewModels<CategoryDetailViewModel>()
+    private val viewModel: CategoryDetailViewModel by viewModels { ViewModelFactory(requireContext()) }
 
     override fun onCreateView(
         inflater: LayoutInflater,

@@ -5,7 +5,7 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 
-class ProductDetailRepository @Inject constructor(
+class ProductDetailRepository (
     private val remoteDataSource: ProductDetailDataSource
 ) {
 
