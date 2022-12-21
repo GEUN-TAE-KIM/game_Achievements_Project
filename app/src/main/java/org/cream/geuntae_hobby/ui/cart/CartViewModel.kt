@@ -10,7 +10,10 @@ import org.cream.geuntae_hobby.model.CartItem
 import org.cream.geuntae_hobby.repository.cart.CartRepository
 import javax.inject.Inject
 
-class CartViewModel (private val cartRepository: CartRepository) : ViewModel() {
+@HiltViewModel
+class CartViewModel @Inject constructor(
+    private val cartRepository: CartRepository
+) : ViewModel() {
 
     private val _items = MutableLiveData<List<CartItem>>()
     val items: LiveData<List<CartItem>> = _items

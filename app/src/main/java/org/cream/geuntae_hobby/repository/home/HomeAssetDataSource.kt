@@ -6,7 +6,9 @@ import org.cream.geuntae_hobby.model.HomeData
 import javax.inject.Inject
 import javax.inject.Singleton
 
-class HomeAssetDataSource(private val assetLoader: AssetLoader) : HomeDataSource {
+class HomeAssetDataSource @Inject constructor(
+    private val assetLoader: AssetLoader
+) : HomeDataSource {
 
     private val gson = Gson()
 

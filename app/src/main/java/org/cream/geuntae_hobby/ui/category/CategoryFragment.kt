@@ -14,7 +14,6 @@ import org.cream.geuntae_hobby.common.KEY_CATEGORY_ID
 import org.cream.geuntae_hobby.common.KEY_CATEGORY_LABEL
 import org.cream.geuntae_hobby.databinding.FragmentCartegoryBinding
 import org.cream.geuntae_hobby.ui.common.EventObserver
-import org.cream.geuntae_hobby.ui.common.ViewModelFactory
 
 @AndroidEntryPoint
 class CategoryFragment: Fragment() {

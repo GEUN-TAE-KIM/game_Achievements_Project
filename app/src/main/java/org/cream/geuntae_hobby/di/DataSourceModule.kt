@@ -19,19 +19,8 @@ import org.cream.geuntae_hobby.repository.productdetail.ProductDetailRemoteDataS
 @Module
 abstract class DataSourceModule {
 
- /* @Binds
+    // 남기기
+    @Binds
     abstract fun bindCartItemDataSource(dataSource: CartItemLocalDataSource): CartItemDataSource
-
-    @Binds
-    abstract fun bindHomeDataSource(dataSource: HomeAssetDataSource): HomeDataSource */
-
-    @Binds
-    abstract fun bindCategoryDataSource(dataSource: CategoryRemoteDataSource): CategoryDataSource
-
-    @Binds
-    abstract fun bindCategoryDetailDataSource(dataSource: CategoryDetailRemoteDataSource): CategoryDetailDataSource
-
-    @Binds
-    abstract fun bindProductDetailDataSource(dataSource: ProductDetailRemoteDataSource): ProductDetailDataSource
 
 }

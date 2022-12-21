@@ -11,9 +11,10 @@ import org.cream.geuntae_hobby.model.TopSelling
 import org.cream.geuntae_hobby.repository.categorydetail.CategoryDetailRepository
 import javax.inject.Inject
 
-
-class CategoryDetailViewModel (private val categoryDetailRepository: CategoryDetailRepository) :
-    ViewModel() {
+@HiltViewModel
+class CategoryDetailViewModel @Inject constructor(
+    private val categoryDetailRepository: CategoryDetailRepository
+) : ViewModel() {
 
     private val _topSelling = MutableLiveData<TopSelling>()
     val topSelling: LiveData<TopSelling> = _topSelling

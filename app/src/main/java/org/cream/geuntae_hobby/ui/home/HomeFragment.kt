@@ -19,7 +19,7 @@ import org.cream.geuntae_hobby.ui.common.*
 @AndroidEntryPoint
 class HomeFragment : Fragment(), ProductClickListener {
 
-    private val viewModel: HomeViewModel by viewModels{ ViewModelFactory(requireContext()) }
+    private val viewModel: HomeViewModel by viewModels()
     private lateinit var binding: FragmentHomeBinding
 
     override fun onCreateView(
