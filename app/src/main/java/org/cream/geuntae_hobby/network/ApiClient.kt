@@ -26,7 +26,7 @@ interface ApiClient {
    /* @GET("{categoryID}.json")
     suspend fun getCategoryDetail(@Path("categoryId") categoryId: String): CategoryDetail*/
 
-    companion object{
+    /*companion object{
 
         private const val baseUrl = "https://shop-90b5b-default-rtdb.asia-southeast1.firebasedatabase.app/"
 
@@ -47,5 +47,5 @@ interface ApiClient {
                 .build()
                 .create(ApiClient::class.java)
         }
-    }
+    }*/
 }

@@ -2,8 +2,10 @@ package org.cream.geuntae_hobby.repository.productdetail
 
 import org.cream.geuntae_hobby.model.Product
 import org.cream.geuntae_hobby.network.ApiClient
+import javax.inject.Inject
+import javax.inject.Singleton
 
-class ProductDetailRemoteDataSource(
+class ProductDetailRemoteDataSource @Inject constructor(
     private val api: ApiClient
 ) : ProductDetailDataSource {
 

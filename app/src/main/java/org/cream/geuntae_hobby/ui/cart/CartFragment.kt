@@ -6,12 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import dagger.hilt.android.AndroidEntryPoint
 import org.cream.geuntae_hobby.databinding.FragmentCartBinding
-import org.cream.geuntae_hobby.ui.common.ViewModelFactory
 
+@AndroidEntryPoint
 class CartFragment: Fragment() {
 
-    private val viewModel: CartViewModel by viewModels { ViewModelFactory(requireContext()) }
+    private val viewModel : CartViewModel by viewModels()
     private lateinit var binding: FragmentCartBinding
 
     override fun onCreateView(

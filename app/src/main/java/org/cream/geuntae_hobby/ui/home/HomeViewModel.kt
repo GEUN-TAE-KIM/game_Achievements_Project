@@ -3,13 +3,18 @@ package org.cream.geuntae_hobby.ui.home
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import dagger.hilt.android.lifecycle.HiltViewModel
 import org.cream.geuntae_hobby.model.Banner
 import org.cream.geuntae_hobby.model.Promotion
 import org.cream.geuntae_hobby.model.Title
 import org.cream.geuntae_hobby.repository.home.HomeRepository
 import org.cream.geuntae_hobby.ui.common.Event
+import javax.inject.Inject
 
-class HomeViewModel(private val homeRepository: HomeRepository) : ViewModel() {
+@HiltViewModel
+class HomeViewModel @Inject constructor(
+    private val homeRepository: HomeRepository
+) : ViewModel() {
 
     private val _title = MutableLiveData<Title>()
     val title: LiveData<Title> = _title

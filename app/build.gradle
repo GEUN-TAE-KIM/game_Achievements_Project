@@ -53,7 +53,6 @@ dependencies {
     // 네비게이션
     implementation "androidx.navigation:navigation-fragment-ktx:$navVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navVersion"
-    //추가를 굳이 안해도 네비게이션에 포함 되어 있어서 by viewModels를 쓸수가 있음
     implementation "androidx.fragment:fragment-ktx:1.5.2"
     
     // 글라이들 모듈

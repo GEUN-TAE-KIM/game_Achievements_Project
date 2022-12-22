@@ -4,22 +4,12 @@ import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import org.cream.geuntae_hobby.AssetLoader
-import org.cream.geuntae_hobby.ServiceLocator
-import org.cream.geuntae_hobby.repository.category.CategoryRemoteDataSource
-import org.cream.geuntae_hobby.repository.category.CategoryRepository
-import org.cream.geuntae_hobby.repository.categorydetail.CategoryDetailRemoteDataSource
-import org.cream.geuntae_hobby.repository.categorydetail.CategoryDetailRepository
 import org.cream.geuntae_hobby.repository.home.HomeAssetDataSource
 import org.cream.geuntae_hobby.repository.home.HomeRepository
-import org.cream.geuntae_hobby.repository.productdetail.ProductDetailRemoteDataSource
-import org.cream.geuntae_hobby.repository.productdetail.ProductDetailRepository
-import org.cream.geuntae_hobby.ui.cart.CartViewModel
-import org.cream.geuntae_hobby.ui.category.CategoryViewModel
-import org.cream.geuntae_hobby.ui.categorydetail.CategoryDetailViewModel
 import org.cream.geuntae_hobby.ui.home.HomeViewModel
-import org.cream.geuntae_hobby.ui.productdetail.ProductDetailViewModel
 import java.lang.IllegalArgumentException
 
+/*
 class ViewModelFactory(private val context: Context): ViewModelProvider.Factory {
 
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
@@ -48,4 +38,4 @@ class ViewModelFactory(private val context: Context): ViewModelProvider.Factory 
             }
         }
     }
-}
+}*/
