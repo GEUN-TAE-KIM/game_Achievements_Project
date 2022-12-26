@@ -5,10 +5,12 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.cream.geuntae_hobby.model.Promotion
 import org.cream.geuntae_hobby.model.TopSelling
 import org.cream.geuntae_hobby.repository.categorydetail.CategoryDetailRepository
+import org.cream.geuntae_hobby.ui.common.Event
 import javax.inject.Inject
 
 @HiltViewModel
@@ -34,5 +36,7 @@ class CategoryDetailViewModel @Inject constructor(
         }
 
     }
+
+
 
 }

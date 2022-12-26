@@ -1,21 +1,19 @@
-package org.cream.geuntae_hobby.repository.cart
+package org.cream.geuntae_hobby.repository.myinfo
 
 import kotlinx.coroutines.CoroutineDispatcher
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.cream.geuntae_hobby.model.CartItem
+import org.cream.geuntae_hobby.model.MyInfoItem
 import org.cream.geuntae_hobby.model.Product
 import javax.inject.Inject
-import javax.inject.Singleton
 
-class CartRepository @Inject constructor(
-    private val localDataSource: CartItemLocalDataSource,
+class MyInfoRepository @Inject constructor(
+    private val localDataSource: MyInfoLocalDataSource,
     private val ioDispatcher: CoroutineDispatcher
 ) {
 
     suspend fun addCartItem(product: Product) {
         withContext(ioDispatcher) {
-            val cartItem = CartItem(
+            val myInfoItem = MyInfoItem(
                 productId = product.productId,
                 label = product.label,
                 price = product.price,
@@ -24,11 +22,11 @@ class CartRepository @Inject constructor(
                 type = product.type ?: "",
                 amount = 1
             )
-            localDataSource.addCartItem(cartItem)
+            localDataSource.addCartItem(myInfoItem)
         }
     }
 
-    suspend fun getCartItems(): List<CartItem> {
+    suspend fun getCartItems(): List<MyInfoItem> {
         return withContext(ioDispatcher) {
             localDataSource.getCartItems()
         }

@@ -25,9 +25,9 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_cart"
-        android:name="org.cream.geuntae_hobby.ui.cart.CartFragment"
+        android:name="org.cream.geuntae_hobby.ui.myinfo.MyInfoFragment"
         android:label="CartFragment"
-        tools:layout="@layout/fragment_cart" />
+        tools:layout="@layout/fragment_myinfo" />
     <fragment
         android:id="@+id/navigation_product_detail"
         android:name="org.cream.geuntae_hobby.ui.productdetail.ProductDetailFragment"

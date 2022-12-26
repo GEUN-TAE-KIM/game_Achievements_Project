@@ -9,7 +9,14 @@ class CategoryDetailRemoteDataSource @Inject constructor(
     private val api: ApiClient
 ) : CategoryDetailDataSource {
 
-    override suspend fun getCategoryDetail(): CategoryDetail {
-        return api.getCategoryDetail()
+   /* override suspend fun getCategoryDetail(categoryId: String): CategoryDetail {
+        return api.getCategoryDetail(categoryId)
+    }*/
+   override suspend fun getCategoryDetail(): CategoryDetail {
+       return api.getCategoryDetail()
+   }
+
+    override suspend fun getCategoryDetail2(): CategoryDetail {
+        return api.getCategoryDetail2()
     }
 }

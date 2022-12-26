@@ -25,7 +25,7 @@
     <string name="description_btn_plus_cart_item">장바구니 상품 갯수 증가 버튼</string>
 
     <!--  Category  -->
-    <string name="label_category_new">NEW</string>
+    <string name="label_category_now">NOW</string>
     <string name="label_category_n">N</string>
 
     <!--  Cart  -->

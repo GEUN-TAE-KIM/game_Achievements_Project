@@ -17,6 +17,7 @@
     <mapping directory="$PROJECT_DIR$/Todo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/WorkoutDiary" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/android07-notto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/architecture-samples" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/iFood" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/shoppi-android" vcs="Git" />
   </component>
