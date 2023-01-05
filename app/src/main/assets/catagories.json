@@ -20,8 +20,8 @@
     },
     {
       "category_id": "from-bloodBorn",
-      "label": "데몬즈소울",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299702-29760e16-98c1-4708-886c-52594db1af8b.jpg",
+      "label": "블러드본",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276251-7c633925-3b79-423d-bfb5-fff2ce328b59.png",
       "updated": false
     },
     {
@@ -37,37 +37,37 @@
       "updated": false
     },
     {
-      "category_id": "from-bloodBorn1",
-      "label": "블러드본",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276251-7c633925-3b79-423d-bfb5-fff2ce328b59.png",
+      "category_id": "from-DemonsSouls",
+      "label": "데몬즈소울",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299702-29760e16-98c1-4708-886c-52594db1af8b.jpg",
       "updated": false
     },
     {
-      "category_id": "from-bloodBorn2",
+      "category_id": "from-lol",
       "label": "롤",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276418-6f75d080-7195-4a7f-aa35-b63d18a0ab50.png",
       "updated": false
     },
     {
-      "category_id": "from-bloodBorn3",
+      "category_id": "from-LolChess",
       "label": "롤토체스",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276595-7d55eff2-db12-4a61-a359-690f4907681f.png",
       "updated": false
     },
     {
-      "category_id": "from-bloodBorn4",
+      "category_id": "from-OverWatch",
       "label": "오버워치",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276888-1ae5bf1f-9a96-4729-a781-29ea49538ac1.png",
       "updated": false
     },
     {
-      "category_id": "from-bloodBorn5",
+      "category_id": "from-AnimalCrossing",
       "label": "동물의 숲",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209277036-7980eec5-3309-47d1-9e8e-c1683fe2ddfa.png",
       "updated": false
     },
     {
-      "category_id": "from-bloodBorn6",
+      "category_id": "from-Genshin",
       "label": "원신",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209277173-d0590ba2-40b4-45df-96e5-61c79cd50c86.png",
       "updated": true

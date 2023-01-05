@@ -16,14 +16,11 @@ interface ApiClient {
     suspend fun getCategories() : List<Category>
 
     // json category_id 아이디 설정하는 것
-    @GET("from-darkSouls1.json")
-    suspend fun getCategoryDetail(): CategoryDetail
+   /* @GET("from-darkSouls1.json")
+    suspend fun getCategoryDetail(): CategoryDetail*/
 
-    @GET("from-darkSouls2.json")
-    suspend fun getCategoryDetail2(): CategoryDetail
-
-    //@GET("{categoryId}.json")
-   // suspend fun getCategoryDetail(@Path("categoryId") categoryId: String): CategoryDetail
+    @GET("{categoryId}.json")
+    suspend fun getCategoryDetail(@Path("categoryId") categoryId: String): CategoryDetail
 
     @GET("products/{productId}.json")
     suspend fun getProductDetail(@Path("productId") productId: String): Product

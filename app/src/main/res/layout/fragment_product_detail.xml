@@ -86,43 +86,6 @@
                     app:layout_constraintTop_toBottomOf="@id/tv_product_brand_name"
                     tools:text="FromSoft" />
 
-                <TextView
-                    android:id="@+id/tv_product_discount_rate"
-                    style="@style/TextMedium.Purple.Bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="20dp"
-                    android:text="@{@string/unit_discount_rate(product.discountRate)}"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/tv_product_label"
-                    tools:text="10%" />
-
-                <TextView
-                    android:id="@+id/tv_product_discount_price"
-                    style="@style/TextMedium.Bold"
-                    discountRate="@{product.discountRate}"
-                    priceAmount="@{product.price}"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
-                    app:layout_constraintBottom_toBottomOf="@id/tv_product_discount_rate"
-                    app:layout_constraintStart_toEndOf="@id/tv_product_discount_rate"
-                    app:layout_constraintTop_toTopOf="@id/tv_product_discount_rate"
-                    tools:text="99,800원" />
-
-                <TextView
-                    android:id="@+id/tv_product_price"
-                    style="@style/TextSubtitle2.Grey05"
-                    priceAmount="@{product.price}"
-                    strikeThrough="@{true}"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="6dp"
-                    app:layout_constraintBaseline_toBaselineOf="@id/tv_product_discount_price"
-                    app:layout_constraintStart_toEndOf="@id/tv_product_discount_price"
-                    tools:text="110,000원" />
-
                 <View
                     android:id="@+id/view_divider_product"
                     android:layout_width="0dp"
@@ -131,7 +94,7 @@
                     android:layout_marginTop="24dp"
                     android:background="#eeeff1"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/tv_product_price" />
+                    app:layout_constraintTop_toBottomOf="@id/tv_product_label" />
 
                 <TextView
                     android:id="@+id/tv_product_detail_image_title"
@@ -176,19 +139,22 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="@string/label_product_price_description"
+                android:text="내용"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                style="@style/TextSubtitle1.Bold"
-                discountRate="@{product.discountRate}"
-                priceAmount="@{product.price}"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_constraintStart_toStartOf="@id/tv_product_discount_price_label"
-                app:layout_constraintTop_toBottomOf="@id/tv_product_discount_price_label"
-                tools:text="120,000원" />
+                style="@style/TextSubtitle1.White.Bold"
+                android:layout_width="186dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="12dp"
+                android:text="훗"
+                android:textColor="@color/shoppi_black_02"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
         <!--    <androidx.appcompat.widget.AppCompatButton
                 style="@style/TextSubtitle1.White.Bold"

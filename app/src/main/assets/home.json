@@ -14,8 +14,6 @@
       "product_detail": {
         "brand_name": "dark1.souls",
         "label": "아르토리스와 선택받은 불사자",
-        "discount_rate": 9,
-        "price": 80000,
         "thumbnail_image_url": "",
         "product_id": "me-darksouls-1"
       }
@@ -30,8 +28,6 @@
       "product_detail": {
         "brand_name": "melrina.EldenRing",
         "label": "아르토리스와 선택받은 불사자",
-        "discount_rate": 5,
-        "price": 100000,
         "thumbnail_image_url": "",
         "product_id": "melrina-EldenRing-1"
       }
@@ -44,15 +40,11 @@
     "items": [
       {
         "label": "아르토리우스",
-        "discount_rate": 10,
-        "price": 90000,
         "representative_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
         "product_id": "jacket_1"
       },
       {
         "label": "아르토리우스2",
-        "discount_rate": 15,
-        "price": 70000,
         "representative_image_url":"https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
         "product_id": "sweater_1"
       }

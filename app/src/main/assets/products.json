@@ -3,8 +3,6 @@
     "me-darksouls-1": {
       "brand_name": "dark1.souls",
       "label": "아르토리스와 선택받은 불사자",
-      "discount_rate": 9,
-      "price": 80000,
       "type": "Free",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
       "representative_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
@@ -26,8 +24,6 @@
     "melrina-EldenRing-1": {
       "brand_name": "melrina.EldenRing",
       "label": "아르토리스와 선택받은 불사자",
-      "discount_rate": 5,
-      "price": 100000,
       "type": "1800x720",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg",
       "representative_image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg",

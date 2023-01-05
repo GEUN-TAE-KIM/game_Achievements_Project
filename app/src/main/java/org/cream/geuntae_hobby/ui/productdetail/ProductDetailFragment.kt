@@ -17,7 +17,7 @@ import org.cream.geuntae_hobby.ui.common.EventObserver
 @AndroidEntryPoint
 class ProductDetailFragment : Fragment() {
 
-    private val viewModel : ProductDetailViewModel by viewModels()
+    private val viewModel: ProductDetailViewModel by viewModels()
     private lateinit var binding: FragmentProductDetailBinding
 
     override fun onCreateView(
@@ -35,22 +35,24 @@ class ProductDetailFragment : Fragment() {
         binding.lifecycleOwner = viewLifecycleOwner
         binding.viewModel = viewModel
         setNavigation()
+
         requireArguments().getString(KEY_PRODUCT_ID)?.let { productId ->
             setLayout(productId)
         }
-        setAddCart()
+
+        // setAddCart()
     }
 
-    private fun setAddCart() {
-        viewModel.addCartEvent.observe(viewLifecycleOwner, EventObserver {
-            MaterialAlertDialogBuilder(requireContext())
-                .setTitle(getString(R.string.dialog_title_add_cart))
-                .setPositiveButton(getString(R.string.dialog_button_label_confirm)) { dialog, which ->
+    /* private fun setAddCart() {
+         viewModel.addCartEvent.observe(viewLifecycleOwner, EventObserver {
+             MaterialAlertDialogBuilder(requireContext())
+                 .setTitle(getString(R.string.dialog_title_add_cart))
+                 .setPositiveButton(getString(R.string.dialog_button_label_confirm)) { dialog, which ->
 
-                }
-                .show()
-        })
-    }
+                 }
+                 .show()
+         })
+     }*/
 
     private fun setNavigation() {
         binding.toolbarProductDetail.setNavigationOnClickListener {
