@@ -15,7 +15,6 @@ data class MyInfoHeader(
 data class MyInfoItem(
     @PrimaryKey @ColumnInfo(name = "product_id") val productId: String,
     val label: String,
-    val price: Int,
     @ColumnInfo(name = "brand_name") val brandName: String,
     @ColumnInfo(name = "thumbnail_image_url") val thumbnailImageUrl: String,
     val type: String,

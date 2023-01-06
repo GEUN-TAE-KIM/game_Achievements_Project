@@ -16,7 +16,6 @@ class MyInfoRepository @Inject constructor(
             val myInfoItem = MyInfoItem(
                 productId = product.productId,
                 label = product.label,
-                price = product.price,
                 brandName = product.brandName ?: "",
                 thumbnailImageUrl = product.thumbnailImageUrl ?: "",
                 type = product.type ?: "",

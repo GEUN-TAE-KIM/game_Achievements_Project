@@ -21,7 +21,7 @@
         <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/shoppi_white"
+            android:background="@color/geuntae_white"
             app:elevation="0dp">
 
             <androidx.appcompat.widget.Toolbar
@@ -151,7 +151,7 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="12dp"
                 android:text="훗"
-                android:textColor="@color/shoppi_black_02"
+                android:textColor="@color/geuntae_black_02"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />

@@ -7,11 +7,19 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import org.cream.geuntae_hobby.databinding.ItemProductDescriptionBinding
 import org.cream.geuntae_hobby.model.Description
+import org.cream.geuntae_hobby.ui.common.ProductDescriptionDiffCallback
 
-class ProductDescriptionAdapter: ListAdapter<Description, ProductDescriptionAdapter.DescriptionViewHolder>(ProductDescriptionDiffCallback()) {
+class ProductDescriptionAdapter :
+    ListAdapter<Description, ProductDescriptionAdapter.DescriptionViewHolder>(
+        ProductDescriptionDiffCallback()
+    ) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DescriptionViewHolder {
-        val binding = ItemProductDescriptionBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        val binding = ItemProductDescriptionBinding.inflate(
+            LayoutInflater.from(parent.context),
+            parent,
+            false
+        )
         return DescriptionViewHolder(binding)
     }
 
@@ -26,15 +34,5 @@ class ProductDescriptionAdapter: ListAdapter<Description, ProductDescriptionAdap
             binding.imageUrl = description.imageUrl
             binding.executePendingBindings()
         }
-    }
-}
-
-class ProductDescriptionDiffCallback : DiffUtil.ItemCallback<Description>() {
-    override fun areItemsTheSame(oldItem: Description, newItem: Description): Boolean {
-        return oldItem.id == newItem.id
-    }
-
-    override fun areContentsTheSame(oldItem: Description, newItem: Description): Boolean {
-        return oldItem == newItem
     }
 }

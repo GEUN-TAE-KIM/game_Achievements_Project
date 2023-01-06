@@ -7,7 +7,13 @@
       "categories": [
         {
           "category_id": "from-darkSouls1",
-          "label": "1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        },
+        {
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         }
@@ -15,20 +21,16 @@
     },
     "promotions": {
       "title": {
-        "text": "추천상품"
+        "text": "베스트 샷"
       },
       "items": [
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "product_id": "from-darkSouls1"
         },
         {
           "label": "[암월의검] 진정한 암월의 힘",
-          "discount_rate": 15,
-          "price": 70000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "product_id": "from-darkSouls1"
         }
@@ -44,28 +46,26 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls2",
-          "label": "스웨터",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         }
       ]
     },
     "promotions": {
       "title": {
-        "text": "추천상품"
+        "text": "베스트 샷"
       },
       "items": [
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls2"
         }
@@ -80,41 +80,31 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls2",
-          "label": "스웨터",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-          "updated": true
-        },
-        {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         }
       ]
     },
     "promotions": {
       "title": {
-        "text": "추천상품"
+        "text": "베스트 샷"
       },
       "items": [
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         },
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         }
@@ -129,41 +119,31 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls2",
-          "label": "스웨터",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-          "updated": true
-        },
-        {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         }
       ]
     },
     "promotions": {
       "title": {
-        "text": "추천상품"
+        "text": "베스트 샷"
       },
       "items": [
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         },
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         }
@@ -178,41 +158,31 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls2",
-          "label": "스웨터",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-          "updated": true
-        },
-        {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         }
       ]
     },
     "promotions": {
       "title": {
-        "text": "추천상품"
+        "text": "베스트 샷"
       },
       "items": [
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         },
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         }
@@ -227,41 +197,31 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls2",
-          "label": "스웨터",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-          "updated": true
-        },
-        {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         }
       ]
     },
     "promotions": {
       "title": {
-        "text": "추천상품"
+        "text": "베스트 샷"
       },
       "items": [
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         },
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         }
@@ -276,41 +236,31 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls2",
-          "label": "스웨터",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-          "updated": true
-        },
-        {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         }
       ]
     },
     "promotions": {
       "title": {
-        "text": "추천상품"
+        "text": "베스트 샷"
       },
       "items": [
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         },
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         }
@@ -325,41 +275,31 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls2",
-          "label": "스웨터",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-          "updated": true
-        },
-        {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         }
       ]
     },
     "promotions": {
       "title": {
-        "text": "추천상품"
+        "text": "베스트 샷"
       },
       "items": [
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         },
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         }
@@ -374,41 +314,31 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls2",
-          "label": "스웨터",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-          "updated": true
-        },
-        {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         }
       ]
     },
     "promotions": {
       "title": {
-        "text": "추천상품"
+        "text": "베스트 샷"
       },
       "items": [
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         },
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         }
@@ -423,41 +353,31 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls2",
-          "label": "스웨터",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-          "updated": true
-        },
-        {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         }
       ]
     },
     "promotions": {
       "title": {
-        "text": "추천상품"
+        "text": "베스트 샷"
       },
       "items": [
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         },
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         }
@@ -472,41 +392,31 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls2",
-          "label": "스웨터",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-          "updated": true
-        },
-        {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         }
       ]
     },
     "promotions": {
       "title": {
-        "text": "추천상품"
+        "text": "베스트 샷"
       },
       "items": [
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         },
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         }
@@ -521,41 +431,31 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls2",
-          "label": "스웨터",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-          "updated": true
-        },
-        {
-          "category_id": "from-darkSouls2",
-          "label": "허리띠",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         }
       ]
     },
     "promotions": {
       "title": {
-        "text": "추천상품"
+        "text": "베스트 샷"
       },
       "items": [
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         },
         {
           "label": "[태양만세]진정한 태양의 성자",
-          "discount_rate": 10,
-          "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
           "product_id": "from-darkSouls3"
         }

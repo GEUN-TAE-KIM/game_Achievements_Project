@@ -10,17 +10,17 @@
     </style>
 
     <style name="RoundedMedium">
-        <item name="cornerSize">8dp</item>
+        <item name="cornerSize">5dp</item>
     </style>
 
     <!--  Text Style  -->
     <style name="TextHeadline32" >
         <item name="android:textSize">32sp</item>
-        <item name="android:textColor">@color/shoppi_black_01</item>
+        <item name="android:textColor">@color/geuntae_black_01</item>
     </style>
 
     <style name="TextHeadline32.White" >
-        <item name="android:textColor">@color/shoppi_white</item>
+        <item name="android:textColor">@color/geuntae_white</item>
     </style>
 
     <style name="TextHeadline32.White.Bold" >
@@ -28,7 +28,7 @@
     </style>
 
     <style name="TextHeadline5.Black02" parent="TextAppearance.MaterialComponents.Headline5">
-        <item name="android:textColor">@color/shoppi_black_02</item>
+        <item name="android:textColor">@color/geuntae_black_02</item>
     </style>
 
     <style name="TextHeadline5.Black02.Bold" >
@@ -36,15 +36,16 @@
     </style>
 
     <style name="TextMedium" parent="TextAppearance.AppCompat.Medium">
-        <item name="android:textColor">@color/shoppi_black_01</item>
+        <item name="android:textColor">@color/geuntae_black_01</item>
     </style>
 
     <style name="TextMedium.Bold">
         <item name="android:textStyle">bold</item>
+
     </style>
 
     <style name="TextMedium.Purple">
-        <item name="android:textColor">@color/shoppi_purple</item>
+        <item name="android:textColor">@color/geuntae_purple</item>
     </style>
 
     <style name="TextMedium.Purple.Bold">
@@ -52,7 +53,7 @@
     </style>
 
     <style name="TextSubtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
-        <item name="android:textColor">@color/shoppi_black_01</item>
+        <item name="android:textColor">@color/geuntae_black_01</item>
     </style>
 
     <style name="TextSubtitle1.Bold" >
@@ -60,20 +61,20 @@
     </style>
 
     <style name="TextSubtitle1.White">
-        <item name="android:textColor">@color/shoppi_white</item>
+        <item name="android:textColor">@color/geuntae_white</item>
     </style>
 
     <style name="TextSubtitle1.White.Bold">
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/shoppi_white</item>
+        <item name="android:textColor">@color/geuntae_white</item>
     </style>
 
     <style name="TextSubtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
-        <item name="android:textColor">@color/shoppi_black_01</item>
+        <item name="android:textColor">@color/geuntae_black_01</item>
     </style>
 
     <style name="TextSubtitle2.Black02" >
-        <item name="android:textColor">@color/shoppi_black_02</item>
+        <item name="android:textColor">@color/geuntae_black_02</item>
     </style>
 
     <style name="TextSubtitle2.Black02.Bold" >
@@ -81,7 +82,7 @@
     </style>
 
     <style name="TextSubtitle2.Purple" >
-        <item name="android:textColor">@color/shoppi_purple</item>
+        <item name="android:textColor">@color/geuntae_purple</item>
     </style>
 
     <style name="TextSubtitle2.Purple.Bold" >
@@ -89,12 +90,12 @@
     </style>
 
     <style name="TextSubtitle2.Grey05" >
-        <item name="android:textColor">@color/shoppi_grey_05</item>
+        <item name="android:textColor">@color/geuntae_grey_05</item>
     </style>
 
     <style name="TextSubtitle3">
         <item name="android:textSize">13sp</item>
-        <item name="android:textColor">@color/shoppi_black_01</item>
+        <item name="android:textColor">@color/geuntae_black_01</item>
     </style>
 
     <style name="TextSubtitle3.Bold">
@@ -102,36 +103,36 @@
     </style>
 
     <style name="TextSubtitle3.Grey03">
-        <item name="android:textColor">@color/shoppi_grey_03</item>
+        <item name="android:textColor">@color/geuntae_grey_03</item>
     </style>
 
     <style name="TextCaption1" parent="TextAppearance.AppCompat.Caption">
-        <item name="android:textColor">@color/shoppi_black_01</item>
+        <item name="android:textColor">@color/geuntae_black_01</item>
     </style>
 
     <style name="TextCaption1.White" >
-        <item name="android:textColor">@color/shoppi_white</item>
+        <item name="android:textColor">@color/geuntae_white</item>
     </style>
 
     <style name="TextCaption1.Grey01" >
-        <item name="android:textColor">@color/shoppi_grey_01</item>
+        <item name="android:textColor">@color/geuntae_grey_01</item>
     </style>
 
     <style name="TextCaption1.Grey03" >
-        <item name="android:textColor">@color/shoppi_grey_03</item>
+        <item name="android:textColor">@color/geuntae_grey_03</item>
     </style>
 
     <style name="TextCaption1.Grey05" >
-        <item name="android:textColor">@color/shoppi_grey_05</item>
+        <item name="android:textColor">@color/geuntae_grey_05</item>
     </style>
 
     <style name="TextCaption2" parent="TextAppearance.AppCompat.Caption">
-        <item name="android:textSize">11sp</item>
-        <item name="android:textColor">@color/shoppi_black_01</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/geuntae_black_01</item>
     </style>
 
     <style name="TextCaption2.White" >
-        <item name="android:textColor">@color/shoppi_white</item>
+        <item name="android:textColor">@color/geuntae_white</item>
     </style>
 
     <style name="TextCaption2.White.Bold" >
@@ -139,6 +140,6 @@
     </style>
 
     <style name="TextCaption2.Grey04" >
-        <item name="android:textColor">@color/shoppi_grey_04</item>
+        <item name="android:textColor">@color/geuntae_grey_04</item>
     </style>
 </resources>

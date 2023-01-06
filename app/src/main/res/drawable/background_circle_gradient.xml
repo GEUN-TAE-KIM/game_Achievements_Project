@@ -6,8 +6,8 @@
                 android:width="48dp"
                 android:height="48dp" />
             <gradient
-                android:endColor="@color/shoppi_gradient_purple"
-                android:startColor="@color/shoppi_gradient_pink"
+                android:endColor="#579BB1"
+                android:startColor="#F8F4EA"
                 android:type="linear" />
         </shape>
     </item>
@@ -17,7 +17,7 @@
         android:right="1.5dp"
         android:top="1.5dp">
         <shape android:shape="oval">
-            <solid android:color="@color/shoppi_white" />
+            <solid android:color="@color/geuntae_white" />
         </shape>
     </item>
 </layer-list>

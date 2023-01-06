@@ -44,7 +44,7 @@
             android:layout_width="0dp"
             android:layout_height="4dp"
             android:layout_marginTop="16dp"
-            android:background="@color/shoppi_bluegrey"
+            android:background="@color/geuntae_bluegrey"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/rv_category_section" />

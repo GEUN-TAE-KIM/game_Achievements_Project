@@ -5,12 +5,15 @@
 
     <data>
 
+        <variable
+            name="viewModel"
+            type="org.cream.geuntae_hobby.ui.myinfo.MyInfoFragment" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/shoppi_bluegrey">
+        android:background="@color/geuntae_bluegrey">
 
         <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/appBarLayout"
@@ -33,6 +36,7 @@
                     android:layout_marginStart="210dp"
                     android:background="#00000000"
                     android:drawableStart="@drawable/ic_baseline_settings_24"
+                    android:fontFamily="@font/kimm_bold"
                     android:text="설정"
                     android:textSize="15sp" />
 
@@ -44,7 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="550dp"
             android:layout_gravity="center"
-            android:background="@color/shoppi_white_a90">
+            android:background="@color/geuntae_white_a90">
 
             <TextView
                 android:id="@+id/search_result_name_tv"
@@ -53,6 +57,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginTop="35dp"
                 android:layout_marginEnd="25dp"
+                android:fontFamily="@font/kimm_bold"
                 android:gravity="center"
                 android:maxLines="2"
                 android:text="근태의 게임 이야기"
@@ -69,7 +74,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_marginTop="15dp"
-                android:background="@color/shoppi_white"
+                android:background="@color/geuntae_white"
                 android:elevation="5dp"
                 android:src="@drawable/challenger"
                 app:layout_constraintBottom_toTopOf="@+id/search_result_authors_tv"
@@ -83,8 +88,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="7dp"
+                android:fontFamily="@font/kimm_light"
                 android:text="마음만은 챌린저"
-                android:textColor="@color/shoppi_black_02"
+                android:textColor="@color/geuntae_black_02"
                 android:textSize="15sp"
                 app:layout_constraintBottom_toTopOf="@+id/search_result_vw"
                 app:layout_constraintEnd_toEndOf="@+id/search_result_img"
@@ -114,6 +120,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="18dp"
                 android:elevation="3dp"
+                android:fontFamily="@font/kimm_bold"
                 android:text="소개"
                 android:textColor="#6C6C6C"
                 android:textSize="16sp"
@@ -129,9 +136,10 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginEnd="25dp"
                 android:elevation="3dp"
+                android:fontFamily="@font/kimm_light"
                 android:lineSpacingExtra="2dp"
                 android:text="내가 좋아하는 게임의 업적"
-                android:textColor="@color/shoppi_black_02"
+                android:textColor="@color/geuntae_black_02"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/search_result_content_title_tv"
                 app:layout_constraintTop_toBottomOf="@+id/search_result_content_title_tv"
@@ -143,6 +151,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="23dp"
                 android:elevation="3dp"
+                android:fontFamily="@font/kimm_bold"
                 android:text="등록 게임 수"
                 android:textColor="#6C6C6C"
                 android:textSize="16sp"
@@ -157,8 +166,9 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
                 android:elevation="3dp"
+                android:fontFamily="@font/kimm_light"
                 android:text="12"
-                android:textColor="@color/shoppi_black_02"
+                android:textColor="@color/geuntae_black_02"
                 android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="@+id/search_result_page_title_tv"
                 app:layout_constraintTop_toBottomOf="@+id/search_result_page_title_tv"
@@ -170,6 +180,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="23dp"
                 android:elevation="3dp"
+                android:fontFamily="@font/kimm_bold"
                 android:text="업데이트 일"
                 android:textColor="#6C6C6C"
                 android:textSize="16sp"
@@ -184,8 +195,9 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
                 android:elevation="3dp"
+                android:fontFamily="@font/kimm_light"
                 android:text="2022-12-26"
-                android:textColor="@color/shoppi_black_02"
+                android:textColor="@color/geuntae_black_02"
                 app:layout_constraintStart_toStartOf="@+id/search_result_publisher_title_tv"
                 app:layout_constraintTop_toBottomOf="@+id/search_result_publisher_title_tv"
                 tools:text="2022-12-26" />
@@ -199,7 +211,8 @@
                 android:layout_marginTop="35dp"
                 android:layout_marginEnd="30dp"
                 android:layout_marginBottom="40dp"
-                android:background="@drawable/background_gradient_r24"
+                android:backgroundTint="@color/geuntae_grey_02"
+                android:fontFamily="@font/kimm_bold"
                 android:text="자세히 알아보기"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@id/search_result_vw"

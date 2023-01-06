@@ -3,7 +3,10 @@
     "text": "게임 플레이",
     "icon_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png"
   },
+
+
   "top_banners": [
+
     {
       "background_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
       "badge": {
@@ -18,6 +21,8 @@
         "product_id": "me-darksouls-1"
       }
     },
+
+
     {
       "background_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
       "badge": {
@@ -33,6 +38,8 @@
       }
     }
   ],
+
+
   "promotions": {
     "title": {
       "text": "오늘의 환상의 플레이"

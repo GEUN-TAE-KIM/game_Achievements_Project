@@ -1,33 +1,36 @@
 package org.cream.geuntae_hobby.network
 
-import okhttp3.OkHttpClient
-import okhttp3.logging.HttpLoggingInterceptor
 import org.cream.geuntae_hobby.model.Category
 import org.cream.geuntae_hobby.model.CategoryDetail
+import org.cream.geuntae_hobby.model.MyInfoDetails
 import org.cream.geuntae_hobby.model.Product
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Path
 
 interface ApiClient {
 
     @GET("categories.json")
-    suspend fun getCategories() : List<Category>
+    suspend fun getCategories(): List<Category>
 
-    // json category_id 아이디 설정하는 것
-   /* @GET("from-darkSouls1.json")
-    suspend fun getCategoryDetail(): CategoryDetail*/
+    @GET("my_info_details.json")
+    suspend fun getMyInfoDetails(): List<MyInfoDetails>
 
     @GET("{categoryId}.json")
     suspend fun getCategoryDetail(@Path("categoryId") categoryId: String): CategoryDetail
 
+    @GET("products2/{productId}.json")
+    suspend fun getProductDetail2(@Path("productId") productId: String): Product
+
     @GET("products/{productId}.json")
     suspend fun getProductDetail(@Path("productId") productId: String): Product
 
+    // json category_id 아이디 설정하는 것
+    /* @GET("from-darkSouls1.json")
+     suspend fun getCategoryDetail(): CategoryDetail*/
+
     // 데이터를 구성하면 이렇게
-   /* @GET("{categoryID}.json")
-    suspend fun getCategoryDetail(@Path("categoryId") categoryId: String): CategoryDetail*/
+    /* @GET("{categoryID}.json")
+     suspend fun getCategoryDetail(@Path("categoryId") categoryId: String): CategoryDetail*/
 
     /*companion object{
 
