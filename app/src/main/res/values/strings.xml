@@ -25,7 +25,7 @@
     <string name="description_btn_plus_cart_item">장바구니 상품 갯수 증가 버튼</string>
 
     <!--  Category  -->
-    <string name="label_category_new">NEW</string>
+    <string name="label_category_now">NOW</string>
     <string name="label_category_n">N</string>
 
     <!--  Cart  -->
@@ -36,4 +36,6 @@
     <string name="label_add_cart">장바구니 담기</string>
     <string name="dialog_title_add_cart">장바구니에 상품이 담겼습니다</string>
     <string name="dialog_button_label_confirm">확인</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

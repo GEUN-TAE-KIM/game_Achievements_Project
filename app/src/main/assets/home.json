@@ -1,11 +1,14 @@
 {
   "title": {
-    "text": "게임 스크린샷",
-    "icon_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
+    "text": "게임 플레이",
+    "icon_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png"
   },
+
+
   "top_banners": [
+
     {
-      "background_image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg",
+      "background_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
       "badge": {
         "label": "기획전",
         "background_color": "#52514d"
@@ -14,14 +17,14 @@
       "product_detail": {
         "brand_name": "dark1.souls",
         "label": "아르토리스와 선택받은 불사자",
-        "discount_rate": 9,
-        "price": 80000,
         "thumbnail_image_url": "",
         "product_id": "me-darksouls-1"
       }
     },
+
+
     {
-      "background_image_url": "https://user-images.githubusercontent.com/80413888/188258907-7f9c551e-1b74-4dc6-9d09-833627bfb56f.jpg",
+      "background_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
       "badge": {
         "label": "기획전",
         "background_color": "#976a6d"
@@ -30,45 +33,27 @@
       "product_detail": {
         "brand_name": "melrina.EldenRing",
         "label": "아르토리스와 선택받은 불사자",
-        "discount_rate": 5,
-        "price": 100000,
-        "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/188258907-7f9c551e-1b74-4dc6-9d09-833627bfb56f.jpg",
+        "thumbnail_image_url": "",
         "product_id": "melrina-EldenRing-1"
       }
     }
   ],
+
+
   "promotions": {
     "title": {
-      "text": "오늘의 특가"
+      "text": "오늘의 환상의 플레이"
     },
     "items": [
       {
-        "label": "[19차 리오더] 페이크 레더 숏 테일러 자켓 블랙",
-        "discount_rate": 10,
-        "price": 90000,
-        "representative_image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg",
+        "label": "아르토리우스",
+        "representative_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
         "product_id": "jacket_1"
       },
       {
-        "label": "캐시미어 100% 터틀넥 스웨터",
-        "discount_rate": 15,
-        "price": 70000,
-        "representative_image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg",
+        "label": "아르토리우스2",
+        "representative_image_url":"https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
         "product_id": "sweater_1"
-      },
-      {
-        "label": "반팔 스트라이프 스웨터",
-        "discount_rate": 20,
-        "price": 30000,
-        "representative_image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg",
-        "product_id": "sweater_2"
-      },
-      {
-        "label": "화이트 스포츠 점퍼",
-        "discount_rate": 20,
-        "price": 150000,
-        "representative_image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg",
-        "product_id": "sports_1"
       }
     ]
   }

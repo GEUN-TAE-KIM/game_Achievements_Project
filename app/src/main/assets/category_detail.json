@@ -1,70 +1,465 @@
 {
-  "fashion_female" : {
+  "from-darkSouls1": {
     "top_selling": {
-      "title" : {
-        "text" : "인기상품"
+      "title": {
+        "text": "카테고리"
       },
-    "categories": [
-      {
-        "category_id": "fashion-jacket",
-        "label": "자켓",
-        "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-        "updated": true
-      },
-      {
-        "category_id": "fashion-sweater",
-        "label": "스웨터",
-        "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-        "updated": false
-      },
-      {
-        "category_id": "fashion-cap",
-        "label": "캡모자",
-        "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-        "updated": false
-      },
-      {
-        "category_id": "fashion-belt",
-        "label": "허리띠",
-        "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-        "updated": false
-      }
-    ]
-  },
-  "promotions": {
-    "title": {
-      "text": "추천상품"
+      "categories": [
+        {
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        },
+        {
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        }
+      ]
     },
-    "items": [
-      {
-        "label": "[태양만세]진정한 태양의 성자",
-        "discount_rate": 10,
-        "price": 90000,
-        "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-        "product_id": "jacket_1"
+    "promotions": {
+      "title": {
+        "text": "베스트 샷"
       },
-      {
-        "label": "[암월의검] 진정한 암월의 힘",
-        "discount_rate": 15,
-        "price": 70000,
-        "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299689-66283125-337e-4dd8-a33a-c91efbb47667.jpg",
-        "product_id": "sweater_1"
+      "items": [
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "product_id": "from-darkSouls1"
+        },
+        {
+          "label": "[암월의검] 진정한 암월의 힘",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "product_id": "from-darkSouls1"
+        }
+      ]
+    }
+  },
+
+
+  "from-darkSouls2": {
+    "top_selling": {
+      "title": {
+        "text": "카테고리"
       },
-      {
-        "label": "[암월의검] 진정한 암월의 힘",
-        "discount_rate": 15,
-        "price": 70000,
-        "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299689-66283125-337e-4dd8-a33a-c91efbb47667.jpg",
-        "product_id": "sweater_2"
+      "categories": [
+        {
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        },
+        {
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "베스트 샷"
       },
-      {
-        "label": "[암월의검] 진정한 암월의 힘",
-        "discount_rate": 15,
-        "price": 70000,
-        "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299689-66283125-337e-4dd8-a33a-c91efbb47667.jpg",
-        "product_id": "sports_1"
-      }
-    ]
+      "items": [
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls2"
+        }
+      ]
+    }
+  },
+
+  "from-darkSouls3": {
+    "top_selling": {
+      "title": {
+        "text": "카테고리"
+      },
+      "categories": [
+        {
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        },
+        {
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "베스트 샷"
+      },
+      "items": [
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        },
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        }
+      ]
+    }
+  },
+
+  "from-bloodBorn": {
+    "top_selling": {
+      "title": {
+        "text": "카테고리"
+      },
+      "categories": [
+        {
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        },
+        {
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "베스트 샷"
+      },
+      "items": [
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        },
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        }
+      ]
+    }
+  },
+
+  "from-eldenring": {
+    "top_selling": {
+      "title": {
+        "text": "카테고리"
+      },
+      "categories": [
+        {
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        },
+        {
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "베스트 샷"
+      },
+      "items": [
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        },
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        }
+      ]
+    }
+  },
+
+  "from-SeKiRo": {
+    "top_selling": {
+      "title": {
+        "text": "카테고리"
+      },
+      "categories": [
+        {
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        },
+        {
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "베스트 샷"
+      },
+      "items": [
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        },
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        }
+      ]
+    }
+  },
+
+  "from-DemonsSouls": {
+    "top_selling": {
+      "title": {
+        "text": "카테고리"
+      },
+      "categories": [
+        {
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        },
+        {
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "베스트 샷"
+      },
+      "items": [
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        },
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        }
+      ]
+    }
+  },
+
+  "from-lol": {
+    "top_selling": {
+      "title": {
+        "text": "카테고리"
+      },
+      "categories": [
+        {
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        },
+        {
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "베스트 샷"
+      },
+      "items": [
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        },
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        }
+      ]
+    }
+  },
+
+  "from-LolChess": {
+    "top_selling": {
+      "title": {
+        "text": "카테고리"
+      },
+      "categories": [
+        {
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        },
+        {
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "베스트 샷"
+      },
+      "items": [
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        },
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        }
+      ]
+    }
+  },
+
+  "from-OverWatch": {
+    "top_selling": {
+      "title": {
+        "text": "카테고리"
+      },
+      "categories": [
+        {
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        },
+        {
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "베스트 샷"
+      },
+      "items": [
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        },
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        }
+      ]
+    }
+  },
+
+  "from-AnimalCrossing": {
+    "top_selling": {
+      "title": {
+        "text": "카테고리"
+      },
+      "categories": [
+        {
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        },
+        {
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "베스트 샷"
+      },
+      "items": [
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        },
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        }
+      ]
+    }
+  },
+
+  "from-Genshin": {
+    "top_selling": {
+      "title": {
+        "text": "카테고리"
+      },
+      "categories": [
+        {
+          "category_id": "from-darkSouls1",
+          "label": "보스전",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        },
+        {
+          "category_id": "from-darkSouls1",
+          "label": "하이라이트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "updated": true
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "베스트 샷"
+      },
+      "items": [
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        },
+        {
+          "label": "[태양만세]진정한 태양의 성자",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "product_id": "from-darkSouls3"
+        }
+      ]
+    }
   }
-}
 }

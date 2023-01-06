@@ -3,28 +3,27 @@
     "me-darksouls-1": {
       "brand_name": "dark1.souls",
       "label": "아르토리스와 선택받은 불사자",
-      "discount_rate": 9,
-      "price": 80000,
       "type": "Free",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/20774764/149948264-a5595830-0ce1-4052-892e-3e846ffc0b29.png",
-      "representative_image_url": "https://user-images.githubusercontent.com/20774764/149948250-8968498e-e204-4b35-8d52-8d9aecd1d54a.png",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
       "descriptions": [
         {
           "id": "me-darksouls-1-desc-1",
-          "image_url": "https://user-images.githubusercontent.com/20774764/154342920-f92e9ce0-4491-427b-9119-97138f102a82.jpg"
+          "image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png"
         },
         {
           "id": "me-darksouls-1-desc-2",
-          "image_url": "https://user-images.githubusercontent.com/20774764/154342942-1956ebb2-cc25-4b71-acc4-702f4a1783c6.jpg"
+          "image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png"
         }
       ],
       "product_id": "me-darksouls-1"
     },
+
+
+
     "melrina-EldenRing-1": {
       "brand_name": "melrina.EldenRing",
       "label": "아르토리스와 선택받은 불사자",
-      "discount_rate": 5,
-      "price": 100000,
       "type": "1800x720",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg",
       "representative_image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg",

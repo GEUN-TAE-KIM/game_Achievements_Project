@@ -8,11 +8,14 @@ import org.cream.geuntae_hobby.databinding.ItemCategoryBinding
 import org.cream.geuntae_hobby.model.Category
 import org.cream.geuntae_hobby.ui.common.CategoryDiffCallback
 
-class CategoryAdapter(private val viewModel: CategoryViewModel) : ListAdapter<Category, CategoryAdapter.CategoryViewHolder>(
-    CategoryDiffCallback()) {
+class CategoryAdapter(private val viewModel: CategoryViewModel) :
+    ListAdapter<Category, CategoryAdapter.CategoryViewHolder>(
+        CategoryDiffCallback()
+    ) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoryViewHolder {
-        val binding = ItemCategoryBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        val binding =
+            ItemCategoryBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return CategoryViewHolder(binding)
     }
 
@@ -21,7 +24,8 @@ class CategoryAdapter(private val viewModel: CategoryViewModel) : ListAdapter<Ca
     }
 
 
-    inner class CategoryViewHolder(private val binding: ItemCategoryBinding) : RecyclerView.ViewHolder(binding.root) {
+    inner class CategoryViewHolder(private val binding: ItemCategoryBinding) :
+        RecyclerView.ViewHolder(binding.root) {
         fun bind(category: Category) {
             binding.viewModel = viewModel
             binding.category = category

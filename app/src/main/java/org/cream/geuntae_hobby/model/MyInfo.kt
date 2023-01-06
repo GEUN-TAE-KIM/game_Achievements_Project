@@ -4,20 +4,19 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-sealed class CartProduct
-data class CartHeader(
+sealed class MyInfo
+data class MyInfoHeader(
     val brandName: String
-): CartProduct()
+): MyInfo()
 
 @Entity(
     tableName = "cart_item"
 )
-data class CartItem(
+data class MyInfoItem(
     @PrimaryKey @ColumnInfo(name = "product_id") val productId: String,
     val label: String,
-    val price: Int,
     @ColumnInfo(name = "brand_name") val brandName: String,
     @ColumnInfo(name = "thumbnail_image_url") val thumbnailImageUrl: String,
     val type: String,
     val amount: Int
-): CartProduct()
+): MyInfo()
