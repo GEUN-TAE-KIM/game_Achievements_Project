@@ -4,16 +4,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-
+        <variable
+            name="viewModel"
+            type="org.cream.geuntae_hobby.ui.setting.SettingViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
         <TextView
-            android:id="@+id/tv_contact_email"
+            android:id="@+id/contact_email"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="21dp"
@@ -38,21 +39,21 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/tv_terms_of_use"
+            android:id="@+id/appVersion"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:fontFamily="@font/kimm_light"
             android:gravity="center_vertical"
-            android:text="앱 버전"
+            android:text="@string/app_version"
             android:textColor="@color/geuntae_black_01"
             android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="@id/ib_more_terms_of_use"
+            app:layout_constraintBottom_toBottomOf="@id/ib_more_appVersion"
             app:layout_constraintEnd_toStartOf="@id/ib_more_email"
-            app:layout_constraintStart_toStartOf="@id/tv_contact_email"
-            app:layout_constraintTop_toTopOf="@id/ib_more_terms_of_use" />
+            app:layout_constraintStart_toStartOf="@id/contact_email"
+            app:layout_constraintTop_toTopOf="@id/ib_more_appVersion" />
 
         <ImageButton
-            android:id="@+id/ib_more_terms_of_use"
+            android:id="@+id/ib_more_appVersion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
@@ -61,7 +62,7 @@
             app:layout_constraintTop_toBottomOf="@id/ib_more_email" />
 
         <TextView
-            android:id="@+id/tv_open_source_license"
+            android:id="@+id/app_license"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:fontFamily="@font/kimm_light"
@@ -69,19 +70,19 @@
             android:text="사용한 기술 스택"
             android:textColor="@color/geuntae_black_01"
             android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="@id/ib_more_open_source_license"
-            app:layout_constraintEnd_toStartOf="@id/ib_more_terms_of_use"
-            app:layout_constraintStart_toStartOf="@id/tv_terms_of_use"
-            app:layout_constraintTop_toTopOf="@id/ib_more_open_source_license" />
+            app:layout_constraintBottom_toBottomOf="@id/ib_more_open_app_license"
+            app:layout_constraintEnd_toStartOf="@id/ib_more_appVersion"
+            app:layout_constraintStart_toStartOf="@id/appVersion"
+            app:layout_constraintTop_toTopOf="@id/ib_more_open_app_license" />
 
         <ImageButton
-            android:id="@+id/ib_more_open_source_license"
+            android:id="@+id/ib_more_open_app_license"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:background="@drawable/ic_more_48_gray500"
-            app:layout_constraintEnd_toEndOf="@id/ib_more_terms_of_use"
-            app:layout_constraintTop_toBottomOf="@id/ib_more_terms_of_use" />
+            app:layout_constraintEnd_toEndOf="@id/ib_more_appVersion"
+            app:layout_constraintTop_toBottomOf="@id/ib_more_appVersion" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
