@@ -3,7 +3,7 @@
     {
       "category_id": "from-darkSouls1",
       "label": "다크소울1",
-      "label1": "다크소울1",
+      "label1": "플레이시간",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
       "updated": false
@@ -11,7 +11,7 @@
     {
       "category_id": "from-darkSouls2",
       "label": "다크소울2",
-      "label1": "다크소울1",
+      "label1": "플레이시간",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209275746-e1a43c76-1679-4d6b-bbb3-9839f74587bf.png",
       "updated": false
@@ -19,7 +19,7 @@
     {
       "category_id": "from-darkSouls3",
       "label": "다크소울3",
-      "label1": "다크소울1",
+      "label1": "플레이시간",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209277376-5ef78020-86c8-4e41-b1eb-a9ed0b8d7ee6.png",
       "updated": false
@@ -27,7 +27,7 @@
     {
       "category_id": "from-bloodBorn",
       "label": "블러드본",
-      "label1": "다크소울1",
+      "label1": "플레이시간",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276251-7c633925-3b79-423d-bfb5-fff2ce328b59.png",
       "updated": false
@@ -35,7 +35,7 @@
     {
       "category_id": "from-eldenring",
       "label": "엘든링",
-      "label1": "다크소울1",
+      "label1": "플레이시간",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209275864-f43fa1f4-9a4a-4c06-81a1-cd7f7f51d959.png",
       "updated": false
@@ -43,7 +43,7 @@
     {
       "category_id": "from-SeKiRo",
       "label": "세키로",
-      "label1": "다크소울1",
+      "label1": "플레이시간",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209275830-34bc789d-2d22-4ee8-ba14-dc9674c023f1.png",
       "updated": false
@@ -51,7 +51,7 @@
     {
       "category_id": "from-DemonsSouls",
       "label": "데몬즈소울",
-      "label1": "다크소울1",
+      "label1": "플레이시간",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299702-29760e16-98c1-4708-886c-52594db1af8b.jpg",
       "updated": false
@@ -59,7 +59,7 @@
     {
       "category_id": "from-lol",
       "label": "롤",
-      "label1": "다크소울1",
+      "label1": "최고 랭크",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276418-6f75d080-7195-4a7f-aa35-b63d18a0ab50.png",
       "updated": false
@@ -67,7 +67,7 @@
     {
       "category_id": "from-LolChess",
       "label": "롤토체스",
-      "label1": "다크소울1",
+      "label1": "최고 랭크",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276595-7d55eff2-db12-4a61-a359-690f4907681f.png",
       "updated": false
@@ -75,7 +75,7 @@
     {
       "category_id": "from-OverWatch",
       "label": "오버워치",
-      "label1": "다크소울1",
+      "label1": "최고 랭크",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276888-1ae5bf1f-9a96-4729-a781-29ea49538ac1.png",
       "updated": false
@@ -83,7 +83,7 @@
     {
       "category_id": "from-AnimalCrossing",
       "label": "동물의 숲",
-      "label1": "다크소울1",
+      "label1": "힐링 게임",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209277036-7980eec5-3309-47d1-9e8e-c1683fe2ddfa.png",
       "updated": false
@@ -91,7 +91,7 @@
     {
       "category_id": "from-Genshin",
       "label": "원신",
-      "label1": "다크소울1",
+      "label1": "현재 하는 게임",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209277173-d0590ba2-40b4-45df-96e5-61c79cd50c86.png",
       "updated": true

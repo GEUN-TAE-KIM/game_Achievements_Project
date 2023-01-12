@@ -1,22 +1,22 @@
 {
   "title": {
-    "text": "게임 플레이",
-    "icon_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png"
+    "text": "Game",
+    "icon_url": "https://user-images.githubusercontent.com/80413888/211744338-f93cc871-9755-455a-9646-b4b3be3cad17.png"
   },
 
 
   "top_banners": [
 
     {
-      "background_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+      "background_image_url": "https://user-images.githubusercontent.com/80413888/211618680-a9ead27a-d0a4-4019-8dd5-2c4a0dc2f605.PNG",
       "badge": {
-        "label": "기획전",
+        "label": "업적",
         "background_color": "#52514d"
       },
-      "label": "나의 환상적인 소울\n플레이",
+      "label": "다크소울1\n업적",
       "product_detail": {
-        "brand_name": "dark1.souls",
-        "label": "아르토리스와 선택받은 불사자",
+        "brand_name": "DarkSouls1",
+        "label": "100% 완료",
         "thumbnail_image_url": "",
         "product_id": "me-darksouls-1"
       }
@@ -24,35 +24,196 @@
 
 
     {
-      "background_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+      "background_image_url": "https://user-images.githubusercontent.com/80413888/211619406-ed6ee7f5-e94c-4aad-94e6-97b091a5a64f.PNG",
+      "badge": {
+        "label": "업적",
+        "background_color": "#976a6d"
+      },
+      "label": "다크소울2",
+      "product_detail": {
+        "brand_name": "DarkSouls2",
+        "label": "100% 완료",
+        "thumbnail_image_url": "",
+        "product_id": "melrina-EldenRing-1"
+      }
+    },
+
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/80413888/211617999-71c77aef-46b6-494a-ad22-57199c386251.PNG",
+      "badge": {
+        "label": "업적",
+        "background_color": "#976a6d"
+      },
+      "label": "다크소울3",
+      "product_detail": {
+        "brand_name": "DarkSouls3",
+        "label": "100% 완료",
+        "thumbnail_image_url": "",
+        "product_id": "melrina-EldenRing-1"
+      }
+    },
+
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/80413888/211621650-16534adc-c6e1-4b5d-918e-5f7bb88f9a57.jpg",
+      "badge": {
+        "label": "업적",
+        "background_color": "#976a6d"
+      },
+      "label": "데몬즈소울",
+      "product_detail": {
+        "brand_name": "DemonsSouls",
+        "label": "44%만 완료",
+        "thumbnail_image_url": "",
+        "product_id": "melrina-EldenRing-1"
+      }
+    },
+
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/80413888/211619678-8e9f8662-40d9-4cc6-9fcf-751fae51fbf4.PNG",
+      "badge": {
+        "label": "업적",
+        "background_color": "#976a6d"
+      },
+      "label": "엘든링",
+      "product_detail": {
+        "brand_name": "EldenRing",
+        "label": "100% 완료",
+        "thumbnail_image_url": "",
+        "product_id": "melrina-EldenRing-1"
+      }
+    },
+
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/80413888/211619609-3830e189-f958-476c-b8d5-be355399d530.PNG",
+      "badge": {
+        "label": "업적",
+        "background_color": "#976a6d"
+      },
+      "label": "세키로",
+      "product_detail": {
+        "brand_name": "SeKiRo",
+        "label": "100% 완료",
+        "thumbnail_image_url": "",
+        "product_id": "melrina-EldenRing-1"
+      }
+    },
+
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/80413888/211620457-bc68f381-a347-42e9-b775-94c8019a5e08.jpg",
+      "badge": {
+        "label": "업적",
+        "background_color": "#976a6d"
+      },
+      "label": "블러드본",
+      "product_detail": {
+        "brand_name": "BloodBorne",
+        "label": "플래티넘 달성",
+        "thumbnail_image_url": "",
+        "product_id": "melrina-EldenRing-1"
+      }
+    },
+
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/80413888/211335725-414242ce-ff49-4be7-9d5a-1ce2567395c9.PNG",
+      "badge": {
+        "label": "랭크",
+        "background_color": "#976a6d"
+      },
+      "label": "롤",
+      "product_detail": {
+        "brand_name": "LoL",
+        "label": "2022 시즌 실버3",
+        "thumbnail_image_url": "",
+        "product_id": "melrina-EldenRing-1"
+      }
+    },
+
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/80413888/211336010-1d0b1637-67e4-4ba0-9dde-6d622ef8d753.PNG",
+      "badge": {
+        "label": "랭크",
+        "background_color": "#976a6d"
+      },
+      "label": "롤토체스",
+      "product_detail": {
+        "brand_name": "LoLChess",
+        "label": "시즌7 골드2",
+        "thumbnail_image_url": "",
+        "product_id": "melrina-EldenRing-1"
+      }
+    },
+
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/80413888/211701320-e2a7d509-c75d-4f05-bbe1-c13e1b710665.png",
+      "badge": {
+        "label": "랭크",
+        "background_color": "#976a6d"
+      },
+      "label": "오버워치",
+      "product_detail": {
+        "brand_name": "OverWatch",
+        "label": "오버워치가 2가 되서 날라감 모름겠음",
+        "thumbnail_image_url": "",
+        "product_id": "melrina-EldenRing-1"
+      }
+    },
+
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/80413888/211702621-6f3f7cd9-fd09-4adb-8105-2d9501a11795.png",
       "badge": {
         "label": "기획전",
         "background_color": "#976a6d"
       },
-      "label": "멜리나",
+      "label": "동물의 숲",
       "product_detail": {
-        "brand_name": "melrina.EldenRing",
-        "label": "아르토리스와 선택받은 불사자",
+        "brand_name": "動物の森",
+        "label": "마을 사진",
+        "thumbnail_image_url": "",
+        "product_id": "melrina-EldenRing-1"
+      }
+    },
+
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/80413888/211702955-b243494c-10a8-4ef6-a4b7-d4f3035a9927.png",
+      "badge": {
+        "label": "기획전",
+        "background_color": "#976a6d"
+      },
+      "label": "원신",
+      "product_detail": {
+        "brand_name": "原神",
+        "label": "요새 하는 게임",
         "thumbnail_image_url": "",
         "product_id": "melrina-EldenRing-1"
       }
     }
+
   ],
 
 
   "promotions": {
     "title": {
-      "text": "오늘의 환상의 플레이"
+      "text": "추억.."
     },
     "items": [
       {
-        "label": "아르토리우스",
-        "representative_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+        "label": "트리가드 클리어",
+        "representative_image_url": "https://user-images.githubusercontent.com/80413888/211702204-910d8cfd-92cb-496a-847c-d69c41f51ad2.jpeg",
         "product_id": "jacket_1"
       },
       {
-        "label": "아르토리우스2",
-        "representative_image_url":"https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+        "label": "처음 ps5를 사서 구동한 그 낭만",
+        "representative_image_url":"https://user-images.githubusercontent.com/80413888/211702246-00521cbe-784e-4a62-aa1f-cf0cb0169612.jpeg",
+        "product_id": "sweater_1"
+      },
+      {
+        "label": "동물의 숲 카드 빵 망함",
+        "representative_image_url":"https://user-images.githubusercontent.com/80413888/211702150-f53f8316-7282-46df-84f7-774a0cc28def.jpeg",
+        "product_id": "sweater_1"
+      },
+      {
+        "label": "교토 감성",
+        "representative_image_url":"https://user-images.githubusercontent.com/80413888/211702159-66027768-1fae-43d6-8197-34e9c5ed911a.jpeg",
         "product_id": "sweater_1"
       }
     ]

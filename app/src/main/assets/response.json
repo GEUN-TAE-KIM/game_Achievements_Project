@@ -83,12 +83,12 @@
         {
           "category_id": "from-darkSouls1",
           "label": "보스전",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211697220-28cb655a-d75d-422a-8610-33e614af6c7c.png",
           "updated": true
         },
         {
           "category_id": "from-darkSouls1",
-          "label": "하이라이트",
+          "label": "Best",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         }
@@ -100,13 +100,28 @@
       },
       "items": [
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "label": "화방녀를 바라보는...",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211697192-3d9b8aec-f2cb-47eb-8a91-909e9225be24.png",
+          "product_id": "from-darkSouls1-fireG"
+        },
+        {
+          "label": "화톳불",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211697204-c4355893-21ad-4ca1-974d-c16349df20b4.png",
+          "product_id": "from-darkSouls1-fire"
+        },
+        {
+          "label": "진정한 태양 만세...",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211697222-c1405657-e5f9-465d-8b73-ff89d8d57e2c.png",
           "product_id": "from-darkSouls1"
         },
         {
-          "label": "[암월의검] 진정한 암월의 힘",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "label": "화방녀 뒷모습",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211697213-3c4171e5-a77f-49e2-908a-047eaccfa0c5.png",
+          "product_id": "from-darkSouls1"
+        },
+        {
+          "label": "태양 숭배자들의 만남",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211697217-932295b1-f789-41f7-b05d-c93d0dd05b55.png",
           "product_id": "from-darkSouls1"
         }
       ]
@@ -121,15 +136,15 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls1",
+          "category_id": "from-darkSouls2",
           "label": "보스전",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211698101-0346f1b5-23e5-411f-bb8c-748ab6f926fa.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls1",
-          "label": "하이라이트",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "category_id": "from-darkSouls2",
+          "label": "Best",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211698093-883688f0-6609-4e73-ae23-053305df9be8.png",
           "updated": true
         }
       ]
@@ -140,8 +155,28 @@
       },
       "items": [
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "일기토 중",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211698084-d2fcb1d8-e56a-448c-944c-af864e510361.png",
+          "product_id": "from-darkSouls2"
+        },
+        {
+          "label": "보스에 가기 전에...",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211698090-d6a5cdd8-0684-4d2b-b220-7f8db4cc45df.png",
+          "product_id": "from-darkSouls2"
+        },
+        {
+          "label": "화방녀",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211698091-007aa7e2-da4c-4057-9724-4307a893a5cb.png",
+          "product_id": "from-darkSouls2"
+        },
+        {
+          "label": "다크소울2 주인공",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211698092-73dfe47d-aeb6-449b-9c62-b795faefac39.png",
+          "product_id": "from-darkSouls2"
+        },
+        {
+          "label": "시작의 마을",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211698095-afa426a7-0a14-4faa-871d-2567bbd01bd3.png",
           "product_id": "from-darkSouls2"
         }
       ]
@@ -155,15 +190,15 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls1",
+          "category_id": "from-darkSouls3",
           "label": "보스전",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211617941-e8598b8e-dfb8-4241-94f8-d00bb34a5034.jpg",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls1",
-          "label": "하이라이트",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "category_id": "from-darkSouls3",
+          "label": "Best",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211617957-79b44e50-2318-4816-b05a-3da5c78a0cf6.jpg",
           "updated": true
         }
       ]
@@ -174,13 +209,23 @@
       },
       "items": [
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "무명왕..",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211698687-314b1a43-86d9-4a9b-b2e8-f931b7b7368d.png",
           "product_id": "from-darkSouls3"
         },
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "화방녀",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211698693-ecb041d1-2080-46a2-9b49-85fc44816168.png",
+          "product_id": "from-darkSouls3"
+        },
+        {
+          "label": "장작",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211617952-52801aab-b92f-414c-9a06-cbe4b14e913e.jpg",
+          "product_id": "from-darkSouls3"
+        },
+        {
+          "label": "무명왕 가는 길",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211617966-3a7593b4-a724-4c1a-8041-02a00d10a254.jpg",
           "product_id": "from-darkSouls3"
         }
       ]
@@ -194,15 +239,15 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls1",
+          "category_id": "from-bloodBorn",
           "label": "보스전",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211701017-c0078c35-970e-4c84-8349-f20c2c4fc90f.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls1",
-          "label": "하이라이트",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "category_id": "from-bloodBorn",
+          "label": "Best",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211701029-1591be44-d1a9-477e-acd6-39e41ae9a0ce.png",
           "updated": true
         }
       ]
@@ -213,13 +258,18 @@
       },
       "items": [
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "적 섬멸전",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211701016-74f460e3-7ba1-4b06-90c4-ffbf7c503be8.png",
           "product_id": "from-darkSouls3"
         },
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "까마귀 세트 입고 잡는",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211701020-4440f0ab-8529-4db7-9a8d-320ff2451843.png",
+          "product_id": "from-darkSouls3"
+        },
+        {
+          "label": "DLC 지역 시계탑 가는 길",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211701027-11fc0e52-f39d-4db0-b48a-7ccd094776f4.png",
           "product_id": "from-darkSouls3"
         }
       ]
@@ -233,15 +283,15 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls1",
+          "category_id": "from-eldenring",
           "label": "보스전",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211699725-35151a0f-5b9e-4575-b50b-f46e27727ec4.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls1",
-          "label": "하이라이트",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "category_id": "from-eldenring",
+          "label": "Best",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211699727-176140e2-1d78-480a-b29d-f384f10bfbd1.png",
           "updated": true
         }
       ]
@@ -252,13 +302,23 @@
       },
       "items": [
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "일기토",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211699733-81828706-6e84-4ffe-aaa9-9525f22e2c8f.png",
           "product_id": "from-darkSouls3"
         },
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "황금나무",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211699741-64db2e55-be3a-424d-8918-dc1fc333510a.png",
+          "product_id": "from-darkSouls3"
+        },
+        {
+          "label": "화산지대",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211699750-e2a5f637-96d5-4ece-bbac-059a5cd6a56f.png",
+          "product_id": "from-darkSouls3"
+        },
+        {
+          "label": "이쁜 풍경",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211699726-c20d098c-7e21-4508-b642-83bcec7a4e70.png",
           "product_id": "from-darkSouls3"
         }
       ]
@@ -272,15 +332,15 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls1",
+          "category_id": "from-SeKiRo",
           "label": "보스전",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211700241-82e3b9d0-a5a6-4a3c-954d-a6019c70a4ed.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls1",
-          "label": "하이라이트",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "category_id": "from-SeKiRo",
+          "label": "Best",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211700237-8de0d12b-0b07-46f8-a76d-2eda16509f4f.png",
           "updated": true
         }
       ]
@@ -291,13 +351,13 @@
       },
       "items": [
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "첫 보스전",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211700246-8ea1ed4f-e3c6-4118-a4cc-30761cca231c.png",
           "product_id": "from-darkSouls3"
         },
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "내 그램 노트북 배경화면",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211700243-a5b84782-fea5-44c6-b8e1-64498d28baf5.png",
           "product_id": "from-darkSouls3"
         }
       ]
@@ -311,15 +371,15 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls1",
+          "category_id": "from-DemonsSouls",
           "label": "보스전",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211699277-0c2ea360-07ea-4dc3-9320-95b9b63bad3a.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls1",
-          "label": "하이라이트",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "category_id": "from-DemonsSouls",
+          "label": "Best",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211699309-05aeab96-72fc-41a0-abff-2deca21d9f88.png",
           "updated": true
         }
       ]
@@ -330,13 +390,13 @@
       },
       "items": [
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "이름 머였더라",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211699302-5203cfe3-9f69-4dc3-9539-ef5ba7ec5a6a.png",
           "product_id": "from-darkSouls3"
         },
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "이름 머였더라2",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211699307-d1a9b656-89f0-4108-b234-c406c21c137f.png",
           "product_id": "from-darkSouls3"
         }
       ]
@@ -350,15 +410,15 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls1",
-          "label": "보스전",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "category_id": "from-lol",
+          "label": "2022 시즌",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211335725-414242ce-ff49-4be7-9d5a-1ce2567395c9.PNG",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls1",
-          "label": "하이라이트",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "category_id": "from-lol",
+          "label": "Best",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276418-6f75d080-7195-4a7f-aa35-b63d18a0ab50.png",
           "updated": true
         }
       ]
@@ -369,13 +429,13 @@
       },
       "items": [
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "이미지 준비 중",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/209276418-6f75d080-7195-4a7f-aa35-b63d18a0ab50.png",
           "product_id": "from-darkSouls3"
         },
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "이미지 준비 중",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/209276418-6f75d080-7195-4a7f-aa35-b63d18a0ab50.png",
           "product_id": "from-darkSouls3"
         }
       ]
@@ -389,15 +449,15 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls1",
-          "label": "보스전",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "category_id": "from-LolChess",
+          "label": "시즌7",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211336010-1d0b1637-67e4-4ba0-9dde-6d622ef8d753.PNG",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls1",
-          "label": "하이라이트",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "category_id": "from-LolChess",
+          "label": "Best",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276595-7d55eff2-db12-4a61-a359-690f4907681f.png",
           "updated": true
         }
       ]
@@ -408,13 +468,8 @@
       },
       "items": [
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-          "product_id": "from-darkSouls3"
-        },
-        {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "이미지 준비 중",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/209276595-7d55eff2-db12-4a61-a359-690f4907681f.png",
           "product_id": "from-darkSouls3"
         }
       ]
@@ -428,15 +483,15 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls1",
-          "label": "보스전",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "category_id": "from-OverWatch",
+          "label": "시즌1",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211701320-e2a7d509-c75d-4f05-bbe1-c13e1b710665.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls1",
-          "label": "하이라이트",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "category_id": "from-OverWatch",
+          "label": "Best",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276888-1ae5bf1f-9a96-4729-a781-29ea49538ac1.png",
           "updated": true
         }
       ]
@@ -447,13 +502,8 @@
       },
       "items": [
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-          "product_id": "from-darkSouls3"
-        },
-        {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "이미지 준비 중",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/209276888-1ae5bf1f-9a96-4729-a781-29ea49538ac1.png",
           "product_id": "from-darkSouls3"
         }
       ]
@@ -467,15 +517,15 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls1",
-          "label": "보스전",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "category_id": "from-AnimalCrossing",
+          "label": "주민",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211702621-6f3f7cd9-fd09-4adb-8105-2d9501a11795.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls1",
-          "label": "하이라이트",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "category_id": "from-AnimalCrossing",
+          "label": "배경들",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209277037-7a4474d8-43d7-4e33-a4b5-905995aca8ab.png",
           "updated": true
         }
       ]
@@ -486,13 +536,13 @@
       },
       "items": [
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "신사 가는 길",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211702149-349535aa-76cd-40af-b3d6-f7cb352cc864.jpeg",
           "product_id": "from-darkSouls3"
         },
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "다다미 집",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211702156-1ab15061-266e-420e-a992-5a21f96c29f4.jpeg",
           "product_id": "from-darkSouls3"
         }
       ]
@@ -506,15 +556,15 @@
       },
       "categories": [
         {
-          "category_id": "from-darkSouls1",
+          "category_id": "from-Genshin",
           "label": "보스전",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211702945-22117c66-a96d-4e4b-9716-4215a12e3add.png",
           "updated": true
         },
         {
-          "category_id": "from-darkSouls1",
-          "label": "하이라이트",
-          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+          "category_id": "from-Genshin",
+          "label": "Best",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211702948-e4545da6-f519-4d90-a0e1-8c5bc4d26005.png",
           "updated": true
         }
       ]
@@ -525,13 +575,8 @@
       },
       "items": [
         {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
-          "product_id": "from-darkSouls3"
-        },
-        {
-          "label": "[태양만세]진정한 태양의 성자",
-          "representative_image_url": "https://user-images.githubusercontent.com/80413888/191299675-2a165256-5621-457d-b97e-a210566f2302.jpg",
+          "label": "이미지 준비 중",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211702938-8a7a7441-9f8c-4818-b767-85ae65273380.png",
           "product_id": "from-darkSouls3"
         }
       ]
@@ -583,41 +628,64 @@
   },
 
   "products2": {
-    "me-darksouls-1": {
-      "brand_name": "dark1.souls",
-      "label": "아르토리스와 선택받은 불사자",
-      "type": "Free",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
-      "representative_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
-      "descriptions": [
-        {
-          "id": "me-darksouls-1-desc-1",
-          "image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png"
-        }
-      ],
-      "product_id": "me-darksouls-1"
-    },
 
-
-
-    "melrina-EldenRing-1": {
-      "brand_name": "melrina.EldenRing",
-      "label": "아르토리스와 선택받은 불사자",
+    "from-darkSouls1-fireG": {
+      "brand_name": "from-darkSouls1-fireG",
+      "label": "화방녀를 바라보는...",
       "type": "1800x720",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg",
-      "representative_image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211697192-3d9b8aec-f2cb-47eb-8a91-909e9225be24.png",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211697192-3d9b8aec-f2cb-47eb-8a91-909e9225be24.png",
       "descriptions": [
         {
-          "id": "melrina-EldenRing-1-desc-1",
+          "id": "from-darkSouls1-fireG-desc-1",
           "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
         },
         {
-          "id": "melrina-EldenRing-1-desc-2",
+          "id": "from-darkSouls1-fireG-desc-2",
           "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
         }
       ],
-      "product_id": "melrina-EldenRing-1"
+      "product_id": "from-darkSouls1-fireG"
+    },
+
+    "from-darkSouls1-fire": {
+      "brand_name": "from-darkSouls1-fire",
+      "label": "화톳불",
+      "type": "1800x720",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211697204-c4355893-21ad-4ca1-974d-c16349df20b4.png",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211697204-c4355893-21ad-4ca1-974d-c16349df20b4.png",
+      "descriptions": [
+        {
+          "id": "from-darkSouls1-fire-desc-1",
+          "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
+        },
+        {
+          "id": "from-darkSouls1-fire-desc-2",
+          "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
+        }
+      ],
+      "product_id": "from-darkSouls1-fire"
+    },
+
+    "from-darkSouls1-fire1": {
+      "brand_name": "from-darkSouls1-fire1",
+      "label": "화톳불",
+      "type": "1800x720",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211697222-c1405657-e5f9-465d-8b73-ff89d8d57e2c.png",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211697222-c1405657-e5f9-465d-8b73-ff89d8d57e2c.png",
+      "descriptions": [
+        {
+          "id": "from-darkSouls1-fire1-desc-1",
+          "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
+        },
+        {
+          "id": "from-darkSouls1-fire1-desc-2",
+          "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
+        }
+      ],
+      "product_id": "from-darkSouls1-fire1"
     }
+
   },
 
 
@@ -626,7 +694,7 @@
     {
       "category_id": "from-darkSouls1",
       "label": "다크소울1",
-      "label1": "다크소울1",
+      "label1": "플레이시간",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
       "updated": false
@@ -634,7 +702,7 @@
     {
       "category_id": "from-darkSouls2",
       "label": "다크소울2",
-      "label1": "다크소울1",
+      "label1": "플레이시간",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209275746-e1a43c76-1679-4d6b-bbb3-9839f74587bf.png",
       "updated": false
@@ -642,7 +710,7 @@
     {
       "category_id": "from-darkSouls3",
       "label": "다크소울3",
-      "label1": "다크소울1",
+      "label1": "플레이시간",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209277376-5ef78020-86c8-4e41-b1eb-a9ed0b8d7ee6.png",
       "updated": false
@@ -650,7 +718,7 @@
     {
       "category_id": "from-bloodBorn",
       "label": "블러드본",
-      "label1": "다크소울1",
+      "label1": "플레이시간",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276251-7c633925-3b79-423d-bfb5-fff2ce328b59.png",
       "updated": false
@@ -658,7 +726,7 @@
     {
       "category_id": "from-eldenring",
       "label": "엘든링",
-      "label1": "다크소울1",
+      "label1": "플레이시간",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209275864-f43fa1f4-9a4a-4c06-81a1-cd7f7f51d959.png",
       "updated": false
@@ -666,7 +734,7 @@
     {
       "category_id": "from-SeKiRo",
       "label": "세키로",
-      "label1": "다크소울1",
+      "label1": "플레이시간",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209275830-34bc789d-2d22-4ee8-ba14-dc9674c023f1.png",
       "updated": false
@@ -674,7 +742,7 @@
     {
       "category_id": "from-DemonsSouls",
       "label": "데몬즈소울",
-      "label1": "다크소울1",
+      "label1": "플레이시간",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/191299702-29760e16-98c1-4708-886c-52594db1af8b.jpg",
       "updated": false
@@ -682,7 +750,7 @@
     {
       "category_id": "from-lol",
       "label": "롤",
-      "label1": "다크소울1",
+      "label1": "최고 랭크",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276418-6f75d080-7195-4a7f-aa35-b63d18a0ab50.png",
       "updated": false
@@ -690,7 +758,7 @@
     {
       "category_id": "from-LolChess",
       "label": "롤토체스",
-      "label1": "다크소울1",
+      "label1": "최고 랭크",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276595-7d55eff2-db12-4a61-a359-690f4907681f.png",
       "updated": false
@@ -698,7 +766,7 @@
     {
       "category_id": "from-OverWatch",
       "label": "오버워치",
-      "label1": "다크소울1",
+      "label1": "최고 랭크",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276888-1ae5bf1f-9a96-4729-a781-29ea49538ac1.png",
       "updated": false
@@ -706,7 +774,7 @@
     {
       "category_id": "from-AnimalCrossing",
       "label": "동물의 숲",
-      "label1": "다크소울1",
+      "label1": "힐링 게임",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209277036-7980eec5-3309-47d1-9e8e-c1683fe2ddfa.png",
       "updated": false
@@ -714,7 +782,7 @@
     {
       "category_id": "from-Genshin",
       "label": "원신",
-      "label1": "다크소울1",
+      "label1": "현재 하는 게임",
       "label2": "다크소울1",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209277173-d0590ba2-40b4-45df-96e5-61c79cd50c86.png",
       "updated": true
