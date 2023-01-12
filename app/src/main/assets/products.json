@@ -1,47 +1,246 @@
 {
   "products": {
-    "me-darksouls-1": {
-      "brand_name": "dark1.souls",
-      "label": "아르토리스와 선택받은 불사자",
+
+    "DarkSouls1-Achievements": {
+      "brand_name": "DarkSouls1",
+      "label": "다크소울1",
       "type": "Free",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
-      "representative_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211618680-a9ead27a-d0a4-4019-8dd5-2c4a0dc2f605.PNG",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211618680-a9ead27a-d0a4-4019-8dd5-2c4a0dc2f605.PNG",
+      "descriptions": [
+        {
+          "id": "DarkSouls1-Achievements-desc-1",
+          "detail": "다크소울1 스팀 업적을 100% 달성한 내용"
+        }
+      ],
+      "product_id": "DarkSouls1-Achievements"
+    },
+
+    "DarkSouls2-Achievements": {
+      "brand_name": "DarkSouls2",
+      "label": "다크소울2",
+      "type": "Free",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211619406-ed6ee7f5-e94c-4aad-94e6-97b091a5a64f.PNG",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211619406-ed6ee7f5-e94c-4aad-94e6-97b091a5a64f.PNG",
+      "descriptions": [
+        {
+          "id": "DarkSouls2-Achievements-desc-1",
+          "detail": "다크소울2 스팀 업적을 100% 달성한 내용"
+        }
+      ],
+      "product_id": "DarkSouls2-Achievements"
+    },
+
+    "DarkSouls3-Achievements": {
+      "brand_name": "DarkSouls3",
+      "label": "다크소울3",
+      "type": "Free",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211617999-71c77aef-46b6-494a-ad22-57199c386251.PNG",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211617999-71c77aef-46b6-494a-ad22-57199c386251.PNG",
+      "descriptions": [
+        {
+          "id": "DarkSouls1-Achievements-desc-1",
+          "detail": "다크소울3 스팀 업적을 100% 달성한 내용"
+        }
+      ],
+      "product_id": "DarkSouls3-Achievements"
+    },
+
+    "DemonsSouls-Achievements": {
+      "brand_name": "DemonsSouls",
+      "label": "데몬즈소울",
+      "type": "Free",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211621650-16534adc-c6e1-4b5d-918e-5f7bb88f9a57.jpg",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211621650-16534adc-c6e1-4b5d-918e-5f7bb88f9a57.jpg",
+      "descriptions": [
+        {
+          "id": "DemonsSouls-Achievements-desc-1",
+          "detail": "플레이스테이션5를 팔아 버려서 플래티넘을 달성하지 못함..."
+        }
+      ],
+      "product_id": "DemonsSouls-Achievements"
+    },
+
+    "EldenRing-Achievements": {
+      "brand_name": "EldenRing",
+      "label": "엘든링",
+      "type": "Free",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211619678-8e9f8662-40d9-4cc6-9fcf-751fae51fbf4.PNG",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211619678-8e9f8662-40d9-4cc6-9fcf-751fae51fbf4.PNG",
+      "descriptions": [
+        {
+          "id": "EldenRing-Achievements-desc-1",
+          "detail": "엘든링 스팀 업적을 100% 달성한 내용"
+        }
+      ],
+      "product_id": "EldenRing-Achievements"
+    },
+
+    "SeKiRo-Achievements": {
+      "brand_name": "SeKiRo",
+      "label": "세키로",
+      "type": "Free",
+      "thumbnail_image_url":  "https://user-images.githubusercontent.com/80413888/211619609-3830e189-f958-476c-b8d5-be355399d530.PNG",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211619609-3830e189-f958-476c-b8d5-be355399d530.PNG",
+      "descriptions": [
+        {
+          "id": "SeKiRo-Achievements-desc-1",
+          "detail": "세키로 스팀 업적을 100% 달성한 내용"
+        }
+      ],
+      "product_id": "SeKiRo-Achievements"
+    },
+
+    "BloodBorne-Achievements": {
+      "brand_name": "BloodBorne",
+      "label": "블러드본",
+      "type": "Free",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211620457-bc68f381-a347-42e9-b775-94c8019a5e08.jpg",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211620457-bc68f381-a347-42e9-b775-94c8019a5e08.jpg",
+      "descriptions": [
+        {
+          "id": "BloodBorne-Achievements-desc-1",
+          "detail": "블러드본 플레이스테이션 플래티넘 달성"
+        }
+      ],
+      "product_id": "BloodBorne-Achievements"
+    },
+
+    "LoL-Rank": {
+      "brand_name": "LoL",
+      "label": "롤",
+      "type": "Free",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211335725-414242ce-ff49-4be7-9d5a-1ce2567395c9.PNG",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211335725-414242ce-ff49-4be7-9d5a-1ce2567395c9.PNG",
+      "descriptions": [
+        {
+          "id": "LoL-Rank-desc-1",
+          "detail": "2022 시즌 실버3으로 종료"
+        }
+      ],
+      "product_id": "LoL-Rank"
+    },
+
+    "LoLChess-Rank": {
+      "brand_name": "LoLChess",
+      "label": "롤토체스",
+      "type": "Free",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211336010-1d0b1637-67e4-4ba0-9dde-6d622ef8d753.PNG",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211336010-1d0b1637-67e4-4ba0-9dde-6d622ef8d753.PNG",
+      "descriptions": [
+        {
+          "id": "LoLChess-Rank-desc-1",
+          "detail": "시즌7 골드1 달성"
+        }
+      ],
+      "product_id": "LoLChess-Rank"
+    },
+
+    "OverWatch-Rank": {
+      "brand_name": "OverWatch",
+      "label": "오버워치",
+      "type": "Free",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211701320-e2a7d509-c75d-4f05-bbe1-c13e1b710665.png",
+      "representative_image_url":"https://user-images.githubusercontent.com/80413888/211701320-e2a7d509-c75d-4f05-bbe1-c13e1b710665.png",
+      "descriptions": [
+        {
+          "id": "OverWatch-Rank-desc-1",
+          "detail": "오버워치2가 되서 1의 업적이 없음"
+        }
+      ],
+      "product_id": "OverWatch-Rank"
+    },
+
+    "AnimalCrossing-Screen": {
+      "brand_name": "動物の森",
+      "label": "동물의 숲",
+      "type": "Free",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211702621-6f3f7cd9-fd09-4adb-8105-2d9501a11795.png",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211702621-6f3f7cd9-fd09-4adb-8105-2d9501a11795.png",
+      "descriptions": [
+        {
+          "id": "AnimalCrossing-Screen-desc-1",
+          "detail": "동물의 숲 이미지 추가 예정"
+        }
+      ],
+      "product_id": "AnimalCrossing-Screen"
+    },
+
+    "GenShinImpact-Screen": {
+      "brand_name": "原神",
+      "label": "원신",
+      "type": "Free",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211702955-b243494c-10a8-4ef6-a4b7-d4f3035a9927.png",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211702955-b243494c-10a8-4ef6-a4b7-d4f3035a9927.png",
+      "descriptions": [
+        {
+          "id": "GenShinImpact-Screen-desc-1",
+          "detail": "최애캐들 이미지 예정"
+        }
+      ],
+      "product_id": "GenShinImpact-Screen"
+    },
+
+    "me-darksouls-1": {
+      "brand_name": "엘든링 첫 필드 보스",
+      "label": "트리가드 클리어",
+      "type": "Free",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211702204-910d8cfd-92cb-496a-847c-d69c41f51ad2.jpeg",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211702204-910d8cfd-92cb-496a-847c-d69c41f51ad2.jpeg",
       "descriptions": [
         {
           "id": "me-darksouls-1-desc-1",
-          "image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png"
-        },
-        {
-          "id": "me-darksouls-1-desc-2",
-          "image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png"
+          "detail": "엘든링을 스팀에서 선물 받고 첫 필드 보스를 본 순간\n2시간만에 잡은..."
         }
       ],
       "product_id": "me-darksouls-1"
     },
 
 
-
     "melrina-EldenRing-1": {
-      "brand_name": "melrina.EldenRing",
-      "label": "아르토리스와 선택받은 불사자",
+      "brand_name": "PS5-데몬즈 소울 첫 가동",
+      "label": "그날의 낭만",
       "type": "1800x720",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg",
-      "representative_image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211702246-00521cbe-784e-4a62-aa1f-cf0cb0169612.jpeg",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211702246-00521cbe-784e-4a62-aa1f-cf0cb0169612.jpeg",
       "descriptions": [
         {
           "id": "melrina-EldenRing-1-desc-1",
-          "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
-        },
-        {
-          "id": "melrina-EldenRing-1-desc-2",
-          "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
-        },
-        {
-          "id": "melrina-EldenRing-1-desc-3",
-          "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
+          "detail": "쿠팡에서 PS5 첫 출시날 대기로 오토들을 뚫고 손으로\n예구 성공하여 바로 받아서 가동한 모습"
         }
       ],
       "product_id": "melrina-EldenRing-1"
+    },
+
+    "melrina-EldenRing-2": {
+      "brand_name": "동물의 숲 아미보 카드",
+      "label": "망함...",
+      "type": "1800x720",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211702150-f53f8316-7282-46df-84f7-774a0cc28def.jpeg",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211702150-f53f8316-7282-46df-84f7-774a0cc28def.jpeg",
+      "descriptions": [
+        {
+          "id": "melrina-EldenRing-1-desc-1",
+          "detail": "처음으로 아미보를 사고 뽑았는데 선호 하지 않는 주민들만 나온.."
+        }
+      ],
+      "product_id": "melrina-EldenRing-2"
+    },
+
+
+    "melrina-EldenRing-3": {
+      "brand_name": "동물의 숲 어떤 주민 섬 방문",
+      "label": "교토의 감성",
+      "type": "1800x720",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211702159-66027768-1fae-43d6-8197-34e9c5ed911a.jpeg",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211702159-66027768-1fae-43d6-8197-34e9c5ed911a.jpeg",
+      "descriptions": [
+        {
+          "id": "melrina-EldenRing-1-desc-1",
+          "detail": "모르는 유저의 마을을 방문하여 나도 이렇게 꾸미고 싶다고 생각을 하게 된 계기의 사진"
+        }
+      ],
+      "product_id": "melrina-EldenRing-3"
     }
   }
 }

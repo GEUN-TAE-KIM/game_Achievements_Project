@@ -2,7 +2,6 @@ package org.cream.geuntae_hobby.ui.productdetail
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import org.cream.geuntae_hobby.databinding.ItemProductDescriptionBinding
@@ -31,7 +30,7 @@ class ProductDescriptionAdapter :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(description: Description) {
-            binding.imageUrl = description.imageUrl
+            binding.imageUrl = description.detail
             binding.executePendingBindings()
         }
     }

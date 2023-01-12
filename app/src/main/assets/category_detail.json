@@ -245,6 +245,11 @@
           "label": "이쁜 풍경",
           "representative_image_url": "https://user-images.githubusercontent.com/80413888/211699726-c20d098c-7e21-4508-b642-83bcec7a4e70.png",
           "product_id": "from-darkSouls3"
+        },
+        {
+          "label": "트리가드 클리어",
+          "representative_image_url": "https://user-images.githubusercontent.com/80413888/211702204-910d8cfd-92cb-496a-847c-d69c41f51ad2.jpeg",
+          "product_id": "fme-darksouls-1"
         }
       ]
     }

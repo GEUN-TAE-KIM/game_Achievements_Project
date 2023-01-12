@@ -18,7 +18,7 @@
         "brand_name": "DarkSouls1",
         "label": "100% 완료",
         "thumbnail_image_url": "",
-        "product_id": "me-darksouls-1"
+        "product_id": "DarkSouls1-Achievements"
       }
     },
 
@@ -34,7 +34,7 @@
         "brand_name": "DarkSouls2",
         "label": "100% 완료",
         "thumbnail_image_url": "",
-        "product_id": "melrina-EldenRing-1"
+        "product_id": "DarkSouls2-Achievements"
       }
     },
 
@@ -49,7 +49,7 @@
         "brand_name": "DarkSouls3",
         "label": "100% 완료",
         "thumbnail_image_url": "",
-        "product_id": "melrina-EldenRing-1"
+        "product_id": "DarkSouls3-Achievements"
       }
     },
 
@@ -64,7 +64,7 @@
         "brand_name": "DemonsSouls",
         "label": "44%만 완료",
         "thumbnail_image_url": "",
-        "product_id": "melrina-EldenRing-1"
+        "product_id": "DemonsSouls-Achievements"
       }
     },
 
@@ -79,7 +79,7 @@
         "brand_name": "EldenRing",
         "label": "100% 완료",
         "thumbnail_image_url": "",
-        "product_id": "melrina-EldenRing-1"
+        "product_id": "EldenRing-Achievements"
       }
     },
 
@@ -94,7 +94,7 @@
         "brand_name": "SeKiRo",
         "label": "100% 완료",
         "thumbnail_image_url": "",
-        "product_id": "melrina-EldenRing-1"
+        "product_id": "SeKiRo-Achievements"
       }
     },
 
@@ -109,7 +109,7 @@
         "brand_name": "BloodBorne",
         "label": "플래티넘 달성",
         "thumbnail_image_url": "",
-        "product_id": "melrina-EldenRing-1"
+        "product_id": "BloodBorne-Achievements"
       }
     },
 
@@ -124,7 +124,7 @@
         "brand_name": "LoL",
         "label": "2022 시즌 실버3",
         "thumbnail_image_url": "",
-        "product_id": "melrina-EldenRing-1"
+        "product_id": "LoL-Rank"
       }
     },
 
@@ -139,7 +139,7 @@
         "brand_name": "LoLChess",
         "label": "시즌7 골드2",
         "thumbnail_image_url": "",
-        "product_id": "melrina-EldenRing-1"
+        "product_id": "LoLChess-Rank"
       }
     },
 
@@ -154,7 +154,7 @@
         "brand_name": "OverWatch",
         "label": "오버워치가 2가 되서 날라감 모름겠음",
         "thumbnail_image_url": "",
-        "product_id": "melrina-EldenRing-1"
+        "product_id": "OverWatch-Rank"
       }
     },
 
@@ -169,7 +169,7 @@
         "brand_name": "動物の森",
         "label": "마을 사진",
         "thumbnail_image_url": "",
-        "product_id": "melrina-EldenRing-1"
+        "product_id": "AnimalCrossing-Screen"
       }
     },
 
@@ -184,7 +184,7 @@
         "brand_name": "原神",
         "label": "요새 하는 게임",
         "thumbnail_image_url": "",
-        "product_id": "melrina-EldenRing-1"
+        "product_id": "GenShinImpact-Screen"
       }
     }
 
@@ -199,22 +199,22 @@
       {
         "label": "트리가드 클리어",
         "representative_image_url": "https://user-images.githubusercontent.com/80413888/211702204-910d8cfd-92cb-496a-847c-d69c41f51ad2.jpeg",
-        "product_id": "jacket_1"
+        "product_id": "me-darksouls-1"
       },
       {
         "label": "처음 ps5를 사서 구동한 그 낭만",
         "representative_image_url":"https://user-images.githubusercontent.com/80413888/211702246-00521cbe-784e-4a62-aa1f-cf0cb0169612.jpeg",
-        "product_id": "sweater_1"
+        "product_id": "melrina-EldenRing-1"
       },
       {
         "label": "동물의 숲 카드 빵 망함",
         "representative_image_url":"https://user-images.githubusercontent.com/80413888/211702150-f53f8316-7282-46df-84f7-774a0cc28def.jpeg",
-        "product_id": "sweater_1"
+        "product_id": "melrina-EldenRing-2"
       },
       {
         "label": "교토 감성",
         "representative_image_url":"https://user-images.githubusercontent.com/80413888/211702159-66027768-1fae-43d6-8197-34e9c5ed911a.jpeg",
-        "product_id": "sweater_1"
+        "product_id": "melrina-EldenRing-3"
       }
     ]
   }

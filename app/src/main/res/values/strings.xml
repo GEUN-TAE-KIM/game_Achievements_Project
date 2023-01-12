@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">GeunTae_hobby</string>
-    <string name="title_product_detail_image">상품설명</string>
+    <string name="title_product_detail_image">내용</string>
 
     <!--  Unit  -->
     <string name="unit_discount_rate">%d%%</string>

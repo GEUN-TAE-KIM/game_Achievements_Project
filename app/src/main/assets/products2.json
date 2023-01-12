@@ -10,11 +10,7 @@
       "descriptions": [
         {
           "id": "from-darkSouls1-fireG-desc-1",
-          "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
-        },
-        {
-          "id": "from-darkSouls1-fireG-desc-2",
-          "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
+          "detail": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
         }
       ],
       "product_id": "from-darkSouls1-fireG"
@@ -29,11 +25,7 @@
       "descriptions": [
         {
           "id": "from-darkSouls1-fire-desc-1",
-          "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
-        },
-        {
-          "id": "from-darkSouls1-fire-desc-2",
-          "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
+          "detail": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
         }
       ],
       "product_id": "from-darkSouls1-fire"
@@ -48,15 +40,10 @@
       "descriptions": [
         {
           "id": "from-darkSouls1-fire1-desc-1",
-          "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
-        },
-        {
-          "id": "from-darkSouls1-fire1-desc-2",
-          "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
+          "detail": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
         }
       ],
       "product_id": "from-darkSouls1-fire1"
     }
-
   }
 }
