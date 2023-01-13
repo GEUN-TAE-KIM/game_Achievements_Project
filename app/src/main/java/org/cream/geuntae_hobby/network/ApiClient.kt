@@ -24,7 +24,7 @@ interface ApiClient {
    // @GET("{productId}.json")
    // suspend fun getProductDetail2(@Path("productId") productId: String): Product
 
-    @GET("products2/{productId}.json")
+    @GET("products/{productId}.json")
     suspend fun getProductDetail2(@Path("productId") productId: String): Product
 
     @GET("products/{productId}.json")
