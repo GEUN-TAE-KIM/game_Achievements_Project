@@ -80,8 +80,9 @@ class CategoryDetailFragment : Fragment(), ProductClickListener {
     override fun onProductClick(productId: String) {
         findNavController().navigate(
             R.id.action_navigation_category_detail_to_productDetailFragment2, bundleOf(
-            KEY_PRODUCT_ID to "melrina-EldenRing-1"
-        ))
+                KEY_PRODUCT_ID to productId
+            )
+        )
     }
 
 }

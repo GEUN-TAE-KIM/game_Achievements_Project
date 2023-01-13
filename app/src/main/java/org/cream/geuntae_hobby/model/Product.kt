@@ -14,5 +14,5 @@ data class Product(
 
 data class Description(
     val id: String,
-    @SerializedName("image_url") val imageUrl: String
+    val detail: String,
 )

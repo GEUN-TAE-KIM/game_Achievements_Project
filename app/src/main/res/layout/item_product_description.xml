@@ -14,14 +14,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <ImageView
+        <TextView
             android:id="@+id/iv_product_detail_image"
             android:layout_width="0dp"
-            android:layout_height="240dp"
+            android:layout_height="200dp"
             android:layout_marginBottom="50dp"
+            android:layout_marginStart="20dp"
             android:contentDescription="@string/description_product_detail_image"
             android:scaleType="centerCrop"
-            imageUrl="@{imageUrl}"
+            android:text="@{imageUrl}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

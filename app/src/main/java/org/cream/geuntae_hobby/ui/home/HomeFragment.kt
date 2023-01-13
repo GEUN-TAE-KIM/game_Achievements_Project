@@ -85,7 +85,9 @@ class HomeFragment : Fragment(), ProductClickListener {
     private fun setListAdapter() {
         val titleAdapter = SectionTitleAdapter()
         val promotionAdapter = ProductPromotionAdapter(this)
+
         binding.rvHome.adapter = ConcatAdapter(titleAdapter, promotionAdapter)
+
         viewModel.promotions.observe(viewLifecycleOwner) { promotions ->
             titleAdapter.submitList(listOf(promotions.title))
             promotionAdapter.submitList(promotions.items)
@@ -95,7 +97,7 @@ class HomeFragment : Fragment(), ProductClickListener {
     // ProductClickListener
     override fun onProductClick(productId: String) {
         findNavController().navigate(R.id.action_home_to_product_detail, bundleOf(
-            KEY_PRODUCT_ID to "melrina-EldenRing-1"
+            KEY_PRODUCT_ID to productId
         ))
     }
 

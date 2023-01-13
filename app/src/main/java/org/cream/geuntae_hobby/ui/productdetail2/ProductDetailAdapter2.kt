@@ -30,7 +30,7 @@ class ProductDetailAdapter2 :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(description: Description) {
-            binding.imageUrl = description.imageUrl
+            binding.imageUrl = description.detail
             binding.executePendingBindings()
         }
     }

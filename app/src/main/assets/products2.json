@@ -1,39 +1,49 @@
 {
   "products2": {
-    "me-darksouls-1": {
-      "brand_name": "dark1.souls",
-      "label": "아르토리스와 선택받은 불사자",
-      "type": "Free",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
-      "representative_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
+
+    "from-darkSouls1-fireG": {
+      "brand_name": "from-darkSouls1-fireG",
+      "label": "화방녀를 바라보는...",
+      "type": "1800x720",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211697192-3d9b8aec-f2cb-47eb-8a91-909e9225be24.png",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211697192-3d9b8aec-f2cb-47eb-8a91-909e9225be24.png",
       "descriptions": [
         {
-          "id": "me-darksouls-1-desc-1",
-          "image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png"
+          "id": "from-darkSouls1-fireG-desc-1",
+          "detail": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
         }
       ],
-      "product_id": "me-darksouls-1"
+      "product_id": "from-darkSouls1-fireG"
     },
 
-
-
-    "melrina-EldenRing-1": {
-      "brand_name": "melrina.EldenRing",
-      "label": "아르토리스와 선택받은 불사자",
+    "from-darkSouls1-fire": {
+      "brand_name": "from-darkSouls1-fire",
+      "label": "화톳불",
       "type": "1800x720",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg",
-      "representative_image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211697204-c4355893-21ad-4ca1-974d-c16349df20b4.png",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211697204-c4355893-21ad-4ca1-974d-c16349df20b4.png",
       "descriptions": [
         {
-          "id": "melrina-EldenRing-1-desc-1",
-          "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
-        },
-        {
-          "id": "melrina-EldenRing-1-desc-2",
-          "image_url": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
+          "id": "from-darkSouls1-fire-desc-1",
+          "detail": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
         }
       ],
-      "product_id": "melrina-EldenRing-1"
+      "product_id": "from-darkSouls1-fire"
+    },
+
+    "from-darkSouls1-fire1": {
+      "brand_name": "from-darkSouls1-fire1",
+      "label": "화톳불",
+      "type": "1800x720",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211697222-c1405657-e5f9-465d-8b73-ff89d8d57e2c.png",
+      "representative_image_url": "https://user-images.githubusercontent.com/80413888/211697222-c1405657-e5f9-465d-8b73-ff89d8d57e2c.png",
+      "descriptions": [
+        {
+          "id": "from-darkSouls1-fire1-desc-1",
+          "detail": "https://user-images.githubusercontent.com/80413888/188258906-58064609-3eee-40ea-a12e-9382a34e4065.jpg"
+        }
+      ],
+      "product_id": "from-darkSouls1-fire1"
     }
   }
 }
