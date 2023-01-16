@@ -12,15 +12,15 @@ import org.cream.geuntae_hobby.R
 import org.cream.geuntae_hobby.databinding.FragmentMyinfoBinding
 
 @AndroidEntryPoint
-class MyInfoFragment : Fragment() {
+class MyInfoFragment: Fragment() {
 
-    private val viewModel: MyInfoViewModel by viewModels()
+    private val viewModel : MyInfoViewModel by viewModels()
     private lateinit var binding: FragmentMyinfoBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
-        savedInstanceState: Bundle?,
+        savedInstanceState: Bundle?
     ): View? {
         binding = FragmentMyinfoBinding.inflate(inflater, container, false)
         return binding.root
@@ -38,7 +38,7 @@ class MyInfoFragment : Fragment() {
             findNavController().navigate(R.id.action_navigation_myinfo_to_detailsFragment)
         }
 
-        binding.searchResultSaveBtn.setOnClickListener {
+        binding.searchResultSaveBtn.setOnClickListener{
             findNavController().navigate(R.id.action_navigation_myinfo_to_settingFragment)
         }
 

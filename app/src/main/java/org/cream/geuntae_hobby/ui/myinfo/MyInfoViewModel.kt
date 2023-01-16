@@ -12,7 +12,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class MyInfoViewModel @Inject constructor(
-    private val myInfoRepository: MyInfoRepository,
+    private val myInfoRepository: MyInfoRepository
 ) : ViewModel() {
 
     private val _items = MutableLiveData<List<MyInfoItem>>()

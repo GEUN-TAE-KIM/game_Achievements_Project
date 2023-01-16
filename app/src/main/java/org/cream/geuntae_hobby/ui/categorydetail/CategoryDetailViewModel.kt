@@ -17,7 +17,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class CategoryDetailViewModel @Inject constructor(
-    private val categoryDetailRepository: CategoryDetailRepository,
+    private val categoryDetailRepository: CategoryDetailRepository
 ) : ViewModel() {
 
     private val _topSelling = MutableLiveData<TopSelling>()

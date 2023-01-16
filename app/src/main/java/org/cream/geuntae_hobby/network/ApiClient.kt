@@ -18,18 +18,17 @@ interface ApiClient {
     @GET("{categoryId}.json")
     suspend fun getCategoryDetail(@Path("categoryId") categoryId: String): CategoryDetail
 
+   // @GET("{productId}.json")
+   // suspend fun getProductDetail(@Path("productId") productId: String): Product
+
+   // @GET("{productId}.json")
+   // suspend fun getProductDetail2(@Path("productId") productId: String): Product
+
     @GET("products/{productId}.json")
     suspend fun getProductDetail2(@Path("productId") productId: String): Product
 
     @GET("products/{productId}.json")
     suspend fun getProductDetail(@Path("productId") productId: String): Product
-
-
-    // @GET("{productId}.json")
-    // suspend fun getProductDetail(@Path("productId") productId: String): Product
-
-    // @GET("{productId}.json")
-    // suspend fun getProductDetail2(@Path("productId") productId: String): Product
 
     // json category_id 아이디 설정하는 것
     /* @GET("from-darkSouls1.json")

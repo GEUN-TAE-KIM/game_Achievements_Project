@@ -8,11 +8,12 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import org.cream.geuntae_hobby.model.Product
 import org.cream.geuntae_hobby.repository.productdetail2.ProductDetailRepository2
+import org.cream.geuntae_hobby.ui.common.Event
 import javax.inject.Inject
 
 @HiltViewModel
 class ProductDetailViewModel2 @Inject constructor(
-    private val productDetailRepository2: ProductDetailRepository2,
+    private val productDetailRepository2: ProductDetailRepository2
 ) : ViewModel() {
 
     private val _product = MutableLiveData<Product>()

@@ -13,7 +13,7 @@ class SectionTitleAdapter :
 
     override fun onCreateViewHolder(
         parent: ViewGroup,
-        viewType: Int,
+        viewType: Int
     ): SectionTitleViewHolder {
         val binding = ItemTitleBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return SectionTitleViewHolder(binding)
