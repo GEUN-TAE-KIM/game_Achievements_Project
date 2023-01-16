@@ -6,6 +6,6 @@ import android.graphics.drawable.Drawable
 import androidx.databinding.BindingConversion
 
 @BindingConversion
-fun convertToColorDrawable(color:String): Drawable{
+fun convertToColorDrawable(color: String): Drawable {
     return ColorDrawable(Color.parseColor(color))
 }

@@ -7,12 +7,11 @@ import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import dagger.hilt.android.AndroidEntryPoint
 import org.cream.geuntae_hobby.R
 import org.cream.geuntae_hobby.databinding.FragmentSettingBinding
 import org.cream.geuntae_hobby.ui.MainActivity
@@ -25,7 +24,7 @@ class SettingFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
+        savedInstanceState: Bundle?,
     ): View? {
         binding = FragmentSettingBinding.inflate(inflater, container, false)
         return binding.root

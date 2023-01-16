@@ -6,16 +6,14 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
-import org.cream.geuntae_hobby.model.Category
 import org.cream.geuntae_hobby.model.MyInfoDetails
-import org.cream.geuntae_hobby.repository.category.CategoryRepository
 import org.cream.geuntae_hobby.repository.myinfodetails.MyInfoDetailsRepository
 import org.cream.geuntae_hobby.ui.common.Event
 import javax.inject.Inject
 
 @HiltViewModel
 class MyInfoDetailsViewModel @Inject constructor(
-    private val myInfoDetailsRepository: MyInfoDetailsRepository
+    private val myInfoDetailsRepository: MyInfoDetailsRepository,
 ) : ViewModel() {
 
     private val _items = MutableLiveData<List<MyInfoDetails>>()

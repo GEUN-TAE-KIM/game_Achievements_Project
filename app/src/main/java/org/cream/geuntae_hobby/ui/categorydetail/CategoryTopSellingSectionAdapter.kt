@@ -13,7 +13,10 @@ class CategoryTopSellingSectionAdapter :
         TopSellingDiffCallback()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TopSellingSectionViewHolder {
-        val binding = ItemCategoryTopSellingSectionBinding.inflate(LayoutInflater.from(parent.context),parent,false)
+        val binding =
+            ItemCategoryTopSellingSectionBinding.inflate(LayoutInflater.from(parent.context),
+                parent,
+                false)
         return TopSellingSectionViewHolder(binding)
     }
 
@@ -21,7 +24,9 @@ class CategoryTopSellingSectionAdapter :
         holder.bind(getItem(position))
     }
 
-    class TopSellingSectionViewHolder(private val binding: ItemCategoryTopSellingSectionBinding) :
+    class TopSellingSectionViewHolder(
+        private val binding: ItemCategoryTopSellingSectionBinding,
+    ) :
         RecyclerView.ViewHolder(binding.root) {
 
         private val nestedAdapter = CategoryTopSellingItemAdapter()
@@ -30,11 +35,11 @@ class CategoryTopSellingSectionAdapter :
             binding.rvCategorySection.adapter = nestedAdapter
         }
 
-            fun bind(topSelling: TopSelling){
-                binding.title = topSelling.title
-                binding.executePendingBindings()
-                nestedAdapter.submitList(topSelling.categories)
-            }
+        fun bind(topSelling: TopSelling) {
+            binding.title = topSelling.title
+            binding.executePendingBindings()
+            nestedAdapter.submitList(topSelling.categories)
+        }
 
     }
 

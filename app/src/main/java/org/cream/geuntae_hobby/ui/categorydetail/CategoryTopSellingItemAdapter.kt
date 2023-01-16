@@ -26,10 +26,10 @@ class CategoryTopSellingItemAdapter :
     class TopSellingItemViewHolder(private val binding: ItemCategoryTopSellingBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
-            fun bind(category: Category){
-                binding.category = category
-                binding.executePendingBindings()
-            }
+        fun bind(category: Category) {
+            binding.category = category
+            binding.executePendingBindings()
+        }
     }
 
 
