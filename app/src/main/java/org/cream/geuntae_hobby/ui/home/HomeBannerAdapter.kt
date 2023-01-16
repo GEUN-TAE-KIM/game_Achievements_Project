@@ -45,18 +45,3 @@ class BannerDiffCallback : DiffUtil.ItemCallback<Banner>() {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

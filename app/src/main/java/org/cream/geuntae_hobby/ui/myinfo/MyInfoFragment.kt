@@ -11,10 +11,8 @@ import dagger.hilt.android.AndroidEntryPoint
 import org.cream.geuntae_hobby.R
 import org.cream.geuntae_hobby.databinding.FragmentMyinfoBinding
 
-@AndroidEntryPoint
 class MyInfoFragment : Fragment() {
 
-    private val viewModel: MyInfoViewModel by viewModels()
     private lateinit var binding: FragmentMyinfoBinding
 
     override fun onCreateView(
