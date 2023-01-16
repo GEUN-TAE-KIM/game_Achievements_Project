@@ -8,7 +8,7 @@ class Event<T>(private val content: T) {
     private var hasBeenHandled = false
 
     // 이전에 Observe한 값은 처리하지 않는 것
-    fun getContentIfNotHandled():  T? {
+    fun getContentIfNotHandled(): T? {
         return if (hasBeenHandled) {
             null
         } else {

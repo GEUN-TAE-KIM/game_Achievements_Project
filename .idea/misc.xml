@@ -94,8 +94,9 @@
         <entry key="app/src/main/res/font/setting_1.xml" value="0.2969230769230769" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_cart.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_cartegory.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_cartegory.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_category_detail.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_category_detail2.xml" value="0.27239583333333334" />
         <entry key="app/src/main/res/layout/fragment_detailsragment.xml" value="0.27239583333333334" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_myinfo.xml" value="0.27239583333333334" />
@@ -105,7 +106,7 @@
         <entry key="app/src/main/res/layout/fragment_setting.xml" value="0.27239583333333334" />
         <entry key="app/src/main/res/layout/item_cart_section.xml" value="0.27447916666666666" />
         <entry key="app/src/main/res/layout/item_cart_section_header.xml" value="0.27447916666666666" />
-        <entry key="app/src/main/res/layout/item_category.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_category.xml" value="0.25" />
         <entry key="app/src/main/res/layout/item_category_promotion.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/item_category_top_selling.xml" value="0.27447916666666666" />
         <entry key="app/src/main/res/layout/item_category_top_selling_section.xml" value="0.27447916666666666" />

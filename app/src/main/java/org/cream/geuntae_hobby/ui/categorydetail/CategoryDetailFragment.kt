@@ -15,9 +15,8 @@ import org.cream.geuntae_hobby.common.KEY_CATEGORY_ID
 import org.cream.geuntae_hobby.common.KEY_CATEGORY_LABEL
 import org.cream.geuntae_hobby.common.KEY_PRODUCT_ID
 import org.cream.geuntae_hobby.databinding.FragmentCategoryDetailBinding
-import org.cream.geuntae_hobby.ui.common.ProductClickListener
-import org.cream.geuntae_hobby.ui.common.ProductPromotionAdapter
-import org.cream.geuntae_hobby.ui.common.SectionTitleAdapter
+import org.cream.geuntae_hobby.ui.category.CategoryViewModel
+import org.cream.geuntae_hobby.ui.common.*
 
 @AndroidEntryPoint
 class CategoryDetailFragment : Fragment(), ProductClickListener {
@@ -28,7 +27,7 @@ class CategoryDetailFragment : Fragment(), ProductClickListener {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
-        savedInstanceState: Bundle?
+        savedInstanceState: Bundle?,
     ): View? {
         binding = FragmentCategoryDetailBinding.inflate(inflater, container, false)
         return binding.root
@@ -45,6 +44,7 @@ class CategoryDetailFragment : Fragment(), ProductClickListener {
         }
 
         setToolbar()
+        // setNavigation()
 
     }
 
@@ -84,5 +84,6 @@ class CategoryDetailFragment : Fragment(), ProductClickListener {
             )
         )
     }
+
 
 }

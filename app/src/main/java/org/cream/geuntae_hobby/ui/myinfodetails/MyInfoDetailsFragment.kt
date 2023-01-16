@@ -12,12 +12,12 @@ import org.cream.geuntae_hobby.databinding.FragmentMyinfodetailsBinding
 @AndroidEntryPoint
 class MyInfoDetailsFragment : Fragment() {
 
-    private val viewModel : MyInfoDetailsViewModel by viewModels()
+    private val viewModel: MyInfoDetailsViewModel by viewModels()
     private lateinit var binding: FragmentMyinfodetailsBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
+        savedInstanceState: Bundle?,
     ): View? {
         binding = FragmentMyinfodetailsBinding.inflate(inflater, container, false)
         return binding.root

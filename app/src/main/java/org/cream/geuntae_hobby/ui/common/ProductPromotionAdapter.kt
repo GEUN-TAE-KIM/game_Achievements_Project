@@ -12,7 +12,8 @@ class ProductPromotionAdapter(private val clickListener: ProductClickListener) :
     ListAdapter<Product, ProductPromotionAdapter.ProductPromotionViewHolder>(ProductDiffCallback()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductPromotionViewHolder {
-        val binding = ItemProductPromotionBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        val binding =
+            ItemProductPromotionBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ProductPromotionViewHolder(binding)
     }
 

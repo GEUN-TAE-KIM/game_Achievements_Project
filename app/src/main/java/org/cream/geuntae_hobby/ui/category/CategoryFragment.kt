@@ -16,15 +16,15 @@ import org.cream.geuntae_hobby.databinding.FragmentCartegoryBinding
 import org.cream.geuntae_hobby.ui.common.EventObserver
 
 @AndroidEntryPoint
-class CategoryFragment: Fragment() {
+class CategoryFragment : Fragment() {
 
-    private val viewModel : CategoryViewModel by viewModels()
+    private val viewModel: CategoryViewModel by viewModels()
     private lateinit var binding: FragmentCartegoryBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
-        savedInstanceState: Bundle?
+        savedInstanceState: Bundle?,
     ): View? {
         binding = FragmentCartegoryBinding.inflate(inflater, container, false)
         return binding.root

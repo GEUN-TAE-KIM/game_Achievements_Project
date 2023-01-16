@@ -1,45 +1,48 @@
 <resources>
     <string name="app_name">GeunTae_hobby</string>
-    <string name="title_product_detail_image">내용</string>
+    <string name="title_product_detail_image">Detail</string>
 
     <!--  Unit  -->
     <string name="unit_discount_rate">%d%%</string>
-    <string name="unit_discount_currency">%s원</string>
+    <string name="unit_discount_currency">%sWon</string>
 
     <!--  Navigation  -->
-    <string name="label_category">카테고리</string>
-    <string name="label_home_icon">홈</string>
-    <string name="label_cart">장바구니</string>
+    <string name="label_category">Category</string>
+    <string name="label_home_icon">Home</string>
 
     <!--  Image description  -->
-    <string name="description_appbar_home_icon">홈화면 앱바 아이콘</string>
-    <string name="description_home_banner_image">홈화면 배너 이미지</string>
-    <string name="description_home_banner_thumbnail">홈화면 배너 썸네일</string>
-    <string name="description_product_thumbnail">상품 상세 대표 이미지</string>
-    <string name="description_product_detail_image">상품 상세 이미지</string>
-    <string name="description_product_representative_image">상품 이미지</string>
-    <string name="description_category_thumbnail">카테고리 썸네일</string>
-    <string name="description_cart_item_thumbnail">장바구니에 추가한 상품의 썸네일 이미지</string>
-    <string name="description_btn_delete_cart_item">장바구니 상품 삭제 버튼</string>
-    <string name="description_btn_minus_cart_item">장바구니 상품 갯수 차감 버튼</string>
-    <string name="description_btn_plus_cart_item">장바구니 상품 갯수 증가 버튼</string>
+    <string name="description_appbar_home_icon">Home Screen AppBar Icon</string>
+    <string name="description_home_banner_image">Home Screen Banner Image</string>
+    <string name="description_home_banner_thumbnail">Home Screen Banner Thumbnail</string>
+    <string name="description_product_thumbnail">Product Detail Representation Image</string>
+    <string name="description_product_detail_image">Product Detail Image</string>
+    <string name="description_product_representative_image">Product Image</string>
+    <string name="description_category_thumbnail">Category Thumbnail</string>
 
     <!--  Category  -->
     <string name="label_category_now">NOW</string>
     <string name="label_category_n">N</string>
 
-    <!--  Cart  -->
-    <string name="label_cart_purchase_button">선택한 상품 주문하기</string>
 
-    <!--  Product Detail  -->
-    <string name="label_product_price_description">쿠폰 적용가</string>
-    <string name="label_add_cart">장바구니 담기</string>
-    <string name="dialog_title_add_cart">장바구니에 상품이 담겼습니다</string>
-    <string name="dialog_button_label_confirm">확인</string>
+    <string name="dialog_button_label_confirm">Check</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="dialog_ok_button">OK</string>
     <string name="dialog_cancel_button">Cancel</string>
     <string name="app_version">App Version</string>
+    <string name="Setting">Setting</string>
+    <string name="MyInfoName">GeunTae Game Story</string>
+    <string name="MyInfoIntroducing">Challenger at heart</string>
+    <string name="Introducing">Introducing</string>
+    <string name="IntroducingBoard">IntroducingBoard</string>
+    <string name="Introducing2">number of registered games</string>
+    <string name="IntroducingName2">12</string>
+    <string name="Introducing3">update day</string>
+    <string name="IntroducingDay">2022-12-26</string>
+    <string name="Details">Details</string>
+    <string name="feedback">feedback</string>
+    <string name="Stack">Stack</string>
+    <string name="menu">Menu</string>
+    <string name="info">My Info</string>
 </resources>

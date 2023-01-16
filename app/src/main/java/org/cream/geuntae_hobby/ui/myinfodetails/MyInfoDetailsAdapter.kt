@@ -13,7 +13,10 @@ class MyInfoDetailsAdapter(private val viewModel: MyInfoDetailsViewModel) :
         MyInfoDetailsDiffCallback()
     ) {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyInfoDetailsAdapter.MyInfoDetailsViewHolder {
+    override fun onCreateViewHolder(
+        parent: ViewGroup,
+        viewType: Int,
+    ): MyInfoDetailsAdapter.MyInfoDetailsViewHolder {
         val binding =
             ItemMyinfodetailsBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return MyInfoDetailsViewHolder(binding)

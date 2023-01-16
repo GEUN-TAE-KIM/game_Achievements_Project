@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeunTae_hobby</string>
+    <string name="title_product_detail_image">내용</string>
+    <string name="unit_discount_currency">%s원</string>
+    <string name="label_category">카테고리</string>
+    <string name="label_home_icon">홈</string>
+    <string name="description_appbar_home_icon">홈화면 앱바 아이콘</string>
+    <string name="description_home_banner_image">홈화면 배너 이미지</string>
+    <string name="description_home_banner_thumbnail">홈화면 배너 썸네일</string>
+    <string name="description_product_thumbnail">상품 상세 대표 이미지</string>
+    <string name="unit_discount_rate">%d%%</string>
+    <string name="description_product_detail_image">상품 상세 이미지</string>
+    <string name="description_product_representative_image">상품 이미지</string>
+    <string name="description_category_thumbnail">카테고리 썸네일</string>
+    <string name="label_category_now">NOW</string>
+    <string name="label_category_n">N</string>
+    <string name="dialog_button_label_confirm">확인</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_ok_button">OK</string>
+    <string name="dialog_cancel_button">Cancel</string>
+    <string name="app_version">App Version</string>
+    <string name="Setting">설정</string>
+    <string name="MyInfoName">근태의 게임 이야기</string>
+    <string name="MyInfoIntroducing">마음만은 챌린저</string>
+    <string name="Introducing">소개</string>
+    <string name="IntroducingBoard">내가 좋아하는 게임의 업적</string>
+    <string name="Introducing2">등록 게임 수</string>
+    <string name="IntroducingName2">12</string>
+    <string name="Introducing3">업데이트 일</string>
+    <string name="IntroducingDay">2022-12-26</string>
+    <string name="Details">자세히 알아보기</string>
+    <string name="feedback">피드백 해주기</string>
+    <string name="Stack">사용한 기술 스택</string>
+    <string name="menu">메뉴</string>
+    <string name="info">내 정보</string>
+</resources>

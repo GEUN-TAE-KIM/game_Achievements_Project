@@ -2,18 +2,18 @@
   "from-darkSouls1": {
     "top_selling": {
       "title": {
-        "text": "카테고리"
+        "text": "달성 업적"
       },
       "categories": [
         {
           "category_id": "from-darkSouls1",
-          "label": "보스전",
+          "label": "다크소울",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211697220-28cb655a-d75d-422a-8610-33e614af6c7c.png",
           "updated": true
         },
         {
           "category_id": "from-darkSouls1",
-          "label": "Best",
+          "label": "화톳불",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209278002-22bf10e2-2638-4ca0-8d00-70a916abbe4a.png",
           "updated": true
         }
@@ -57,18 +57,18 @@
   "from-darkSouls2": {
     "top_selling": {
       "title": {
-        "text": "카테고리"
+        "text": "달성 업적"
       },
       "categories": [
         {
           "category_id": "from-darkSouls2",
-          "label": "보스전",
+          "label": "다크소울",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211698101-0346f1b5-23e5-411f-bb8c-748ab6f926fa.png",
           "updated": true
         },
         {
           "category_id": "from-darkSouls2",
-          "label": "Best",
+          "label": "화톳불",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211698093-883688f0-6609-4e73-ae23-053305df9be8.png",
           "updated": true
         }
@@ -111,18 +111,18 @@
   "from-darkSouls3": {
     "top_selling": {
       "title": {
-        "text": "카테고리"
+        "text": "달성 업적"
       },
       "categories": [
         {
           "category_id": "from-darkSouls3",
-          "label": "보스전",
+          "label": "다크소울",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211617941-e8598b8e-dfb8-4241-94f8-d00bb34a5034.jpg",
           "updated": true
         },
         {
           "category_id": "from-darkSouls3",
-          "label": "Best",
+          "label": "화톳불",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211617957-79b44e50-2318-4816-b05a-3da5c78a0cf6.jpg",
           "updated": true
         }
@@ -160,18 +160,18 @@
   "from-bloodBorn": {
     "top_selling": {
       "title": {
-        "text": "카테고리"
+        "text": "달성 업적"
       },
       "categories": [
         {
           "category_id": "from-bloodBorn",
-          "label": "보스전",
+          "label": "블러드본",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211701017-c0078c35-970e-4c84-8349-f20c2c4fc90f.png",
           "updated": true
         },
         {
           "category_id": "from-bloodBorn",
-          "label": "Best",
+          "label": "화톳불",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211701029-1591be44-d1a9-477e-acd6-39e41ae9a0ce.png",
           "updated": true
         }
@@ -204,18 +204,18 @@
   "from-eldenring": {
     "top_selling": {
       "title": {
-        "text": "카테고리"
+        "text": "달성 업적"
       },
       "categories": [
         {
           "category_id": "from-eldenring",
-          "label": "보스전",
+          "label": "엘든링",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211699725-35151a0f-5b9e-4575-b50b-f46e27727ec4.png",
           "updated": true
         },
         {
           "category_id": "from-eldenring",
-          "label": "Best",
+          "label": "화톳불",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211699727-176140e2-1d78-480a-b29d-f384f10bfbd1.png",
           "updated": true
         }
@@ -258,18 +258,18 @@
   "from-SeKiRo": {
     "top_selling": {
       "title": {
-        "text": "카테고리"
+        "text": "달성 업적"
       },
       "categories": [
         {
           "category_id": "from-SeKiRo",
-          "label": "보스전",
+          "label": "세키로",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211700241-82e3b9d0-a5a6-4a3c-954d-a6019c70a4ed.png",
           "updated": true
         },
         {
           "category_id": "from-SeKiRo",
-          "label": "Best",
+          "label": "화톳불",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211700237-8de0d12b-0b07-46f8-a76d-2eda16509f4f.png",
           "updated": true
         }
@@ -297,18 +297,18 @@
   "from-DemonsSouls": {
     "top_selling": {
       "title": {
-        "text": "카테고리"
+        "text": "달성 업적"
       },
       "categories": [
         {
           "category_id": "from-DemonsSouls",
-          "label": "보스전",
+          "label": "데몬즈 소울",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211699277-0c2ea360-07ea-4dc3-9320-95b9b63bad3a.png",
           "updated": true
         },
         {
           "category_id": "from-DemonsSouls",
-          "label": "Best",
+          "label": "화톳불",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211699309-05aeab96-72fc-41a0-abff-2deca21d9f88.png",
           "updated": true
         }
@@ -341,18 +341,18 @@
   "from-lol": {
     "top_selling": {
       "title": {
-        "text": "카테고리"
+        "text": "시즌 업적"
       },
       "categories": [
         {
           "category_id": "from-lol",
-          "label": "2022 시즌",
+          "label": "22실버",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211335725-414242ce-ff49-4be7-9d5a-1ce2567395c9.PNG",
           "updated": true
         },
         {
           "category_id": "from-lol",
-          "label": "Best",
+          "label": "23언랭",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276418-6f75d080-7195-4a7f-aa35-b63d18a0ab50.png",
           "updated": true
         }
@@ -375,18 +375,18 @@
   "from-LolChess": {
     "top_selling": {
       "title": {
-        "text": "카테고리"
+        "text": "시즌 업적"
       },
       "categories": [
         {
           "category_id": "from-LolChess",
-          "label": "시즌7",
+          "label": "7-골드1",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211336010-1d0b1637-67e4-4ba0-9dde-6d622ef8d753.PNG",
           "updated": true
         },
         {
           "category_id": "from-LolChess",
-          "label": "Best",
+          "label": "10-",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276595-7d55eff2-db12-4a61-a359-690f4907681f.png",
           "updated": true
         }
@@ -409,7 +409,7 @@
   "from-OverWatch": {
     "top_selling": {
       "title": {
-        "text": "카테고리"
+        "text": "시즌 업적"
       },
       "categories": [
         {
@@ -420,7 +420,7 @@
         },
         {
           "category_id": "from-OverWatch",
-          "label": "Best",
+          "label": "시즌2",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209276888-1ae5bf1f-9a96-4729-a781-29ea49538ac1.png",
           "updated": true
         }
@@ -443,18 +443,18 @@
   "from-AnimalCrossing": {
     "top_selling": {
       "title": {
-        "text": "카테고리"
+        "text": "주민 목록"
       },
       "categories": [
         {
           "category_id": "from-AnimalCrossing",
-          "label": "주민",
+          "label": "잭슨",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211702621-6f3f7cd9-fd09-4adb-8105-2d9501a11795.png",
           "updated": true
         },
         {
           "category_id": "from-AnimalCrossing",
-          "label": "배경들",
+          "label": "쭈니",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/209277037-7a4474d8-43d7-4e33-a4b5-905995aca8ab.png",
           "updated": true
         }
@@ -492,18 +492,18 @@
   "from-Genshin": {
     "top_selling": {
       "title": {
-        "text": "카테고리"
+        "text": "캐릭터 목록"
       },
       "categories": [
         {
           "category_id": "from-Genshin",
-          "label": "보스전",
+          "label": "라이덴 쇼군",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211702945-22117c66-a96d-4e4b-9716-4215a12e3add.png",
           "updated": true
         },
         {
           "category_id": "from-Genshin",
-          "label": "Best",
+          "label": "나히다",
           "thumbnail_image_url": "https://user-images.githubusercontent.com/80413888/211702948-e4545da6-f519-4d90-a0e1-8c5bc4d26005.png",
           "updated": true
         }
