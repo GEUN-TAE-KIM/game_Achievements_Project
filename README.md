@@ -36,11 +36,6 @@
 │   ├── DataSoruce
 │   └── Repository
 │
-├── ui
-│   ├── Adapter
-│   ├── Fragment
-│   └── ViewModel
-│
 ├──ui
 │  ├── Adapter
 │  ├── Fragment
