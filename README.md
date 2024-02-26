@@ -1,4 +1,4 @@
-# GeunTae_hobby 개인 프로젝트
+# game_Achievements 개인 프로젝트
 
 - 현재까지 내가 좋아한 게임의 업적 및 사진을 표시한 프로젝트
 
